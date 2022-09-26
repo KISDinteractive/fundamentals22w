@@ -2,12 +2,17 @@
 
 ![A close-up of a Turing Machine](img/turing-machine-title.jpg)
 
-
 Welcome to the repository (repo) of the KISD Interactive Systems [Fundamentals] course. 
 You are currently at the root of the repository with the "README" file. Every well-structured repo has this file, which gives an overview of what the repo is about, who the authors are, how to use the content, and how to contribute or ask questions.
 
+## Sessions
+
+[Session 1 (10.10.22)](sessions/session1.md)
+
 ## The Course
 This course will take place in the winter semester 2022/23 at the [Köln International School of Design](https://kisd.de) in Cologne, Germany. The description reads:
+
+<p class="callout info">A success message</p>
 
 > Code and algorithms are the materials from which essential aspects of our social, cultural and economic future are built. When designing these interactive systems and objects, a substantial understanding of the underlying technology (hardware) and the executed algorithm or program code (software) is essential. With the increase of such systems in everyday life, there is an increasing need to approach these topics in the context of design studies (especially in interaction/interface/product design) and to develop the ability to develop such prototypes.
 
