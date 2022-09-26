@@ -1,4 +1,4 @@
-# Interactive Systems [Fundamentals] at KISD – Winter Term 2022/23
+# Interactive Systems [Fundamentals] | Winter 22/23
 
 ![A close-up of a Turing Machine](img/turing-machine-title.jpg)
 
