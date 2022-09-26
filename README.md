@@ -7,7 +7,7 @@ You are currently at the root of the repository with the "README" file. Every we
 
 ## Sessions
 
-- 🤔 [**Session 1 – Computational Thinking**](sessions/session1.md)
+- 🤔 [**Session 1 – Computational Thinking**](/sessions/session1_Computational%20Thinknig)
 - Session 2 – Context & Syntax
 - Session 3 – Advanced Code
 - Session 4 – Languages, Tools, Outlook
