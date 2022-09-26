@@ -11,8 +11,19 @@ You are currently at the root of the repository with the "README" file. Every we
 
 ## The Course
 This course will take place in the winter semester 2022/23 at the [Köln International School of Design](https://kisd.de) in Cologne, Germany. The description reads:
+---
 
-<p class="callout info">A success message</p>
+<details>
+<summary style="font-size:14px">View code</summary>
+<p>
+
+\```md
+
+\```
+
+</p></details>
+
+---
 
 > Code and algorithms are the materials from which essential aspects of our social, cultural and economic future are built. When designing these interactive systems and objects, a substantial understanding of the underlying technology (hardware) and the executed algorithm or program code (software) is essential. With the increase of such systems in everyday life, there is an increasing need to approach these topics in the context of design studies (especially in interaction/interface/product design) and to develop the ability to develop such prototypes.
 
