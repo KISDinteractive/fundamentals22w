@@ -7,13 +7,16 @@ You are currently at the root of the repository with the "README" file. Every we
 
 ## Sessions
 
-[Session 1 (10.10.22)](sessions/session1.md)
+- [Session 1 – Computational Thinking](sessions/session1.md)
+- [Session 2 – Context & Syntax]()
+- [Session 3 – Advanced Code]()
+- [Session 4 – Languages, Tools, Outlook]()
 
 ## The Course
 This course will take place in the winter semester 2022/23 at the [Köln International School of Design](https://kisd.de) in Cologne, Germany. The description reads:
 
 <details>
-<summary style="font-size:14px"><b>View Course Description*</b></summary>
+<summary style="font-size:14px"><b>View Course Description</b></summary>
 <p>
 Code and algorithms are the materials from which essential aspects of our social, cultural and economic future are built. When designing these interactive systems and objects, a substantial understanding of the underlying technology (hardware) and the executed algorithm or program code (software) is essential. With the increase of such systems in everyday life, there is an increasing need to approach these topics in the context of design studies (especially in interaction/interface/product design) and to develop the ability to develop such prototypes.
 
