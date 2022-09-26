@@ -7,10 +7,10 @@ You are currently at the root of the repository with the "README" file. Every we
 
 ## Sessions
 
-- 🤔 [Session 1 – Computational Thinking](sessions/session1.md)
-- [Session 2 – Context & Syntax]()
-- [Session 3 – Advanced Code]()
-- [Session 4 – Languages, Tools, Outlook]()
+- 🤔 [**Session 1 – Computational Thinking**](sessions/session1.md)
+- Session 2 – Context & Syntax
+- Session 3 – Advanced Code
+- Session 4 – Languages, Tools, Outlook
 
 ## The Course
 This course will take place in the winter semester 2022/23 at the [Köln International School of Design](https://kisd.de) in Cologne, Germany. The description reads:
