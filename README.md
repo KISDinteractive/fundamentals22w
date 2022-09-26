@@ -12,10 +12,8 @@ You are currently at the root of the repository with the "README" file. Every we
 ## The Course
 This course will take place in the winter semester 2022/23 at the [Köln International School of Design](https://kisd.de) in Cologne, Germany. The description reads:
 
----
-
 <details>
-<summary style="font-size:14px">View Course Description</summary>
+<summary style="font-size:14px">**View Course Description**</summary>
 <p>
 Code and algorithms are the materials from which essential aspects of our social, cultural and economic future are built. When designing these interactive systems and objects, a substantial understanding of the underlying technology (hardware) and the executed algorithm or program code (software) is essential. With the increase of such systems in everyday life, there is an increasing need to approach these topics in the context of design studies (especially in interaction/interface/product design) and to develop the ability to develop such prototypes.
 
@@ -23,8 +21,6 @@ In this crash course (5 longer sessions with breaks) we learn the absolute basic
 
 No previous knowledge is required for participation. Directly after the course, there will be two further "Interactive Systems [Application]" courses in which you can apply what you have learned. Insofar as these can be chosen, it is recommended to attend one or, if you are interested, both courses.
 </p></details>
-
----
 
 ## Why this repo?
 We will post the slides, content and code of the sessions here as soon as we finish them. This way you can follow the content if you ever can't attend, or want to rework or copy the code at home.
