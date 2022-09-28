@@ -29,4 +29,4 @@ No previous knowledge is required for participation. Directly after the course, 
 We will post the slides, content and code of the sessions here as soon as we finish them. This way you can follow the content if you ever can't attend, or want to rework or copy the code at home.
 
 ## Authors
-This repo is maintained by [Jakob Kilian](https://github.com/jakobkilian) and [Jakob Kilian](https://github.com/edipa), who also give the course. 
+This repo is maintained by [Jakob Kilian](https://github.com/jakobkilian) and [Eduard Paal](https://github.com/edipa), who also give the course. 
