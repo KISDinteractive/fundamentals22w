@@ -7,12 +7,13 @@ You are currently at the root of the repository with the "README" file. Every we
 
 ## Sessions
 
-- 🤔 [**Session 1 – Computational Thinking**](/sessions/session1_Computational%20Thinknig)
+- 🤔 [**Session 1 – Computational Thinking**](sessions/Session1_Computational_Thinknig/README.md)
 - Session 2 – Context & Syntax
 - Session 3 – Advanced Code
 - Session 4 – Languages, Tools, Outlook
 
 ## The Course
+
 This course will take place in the winter semester 2022/23 at the [Köln International School of Design](https://kisd.de) in Cologne, Germany. The description reads:
 
 <details>
@@ -26,7 +27,9 @@ No previous knowledge is required for participation. Directly after the course, 
 </i></p></details>
 
 ## Why this repo?
+
 We will post the slides, content and code of the sessions here as soon as we finish them. This way you can follow the content if you ever can't attend, or want to rework or copy the code at home.
 
 ## Authors
+
 This repo is maintained by [Jakob Kilian](https://github.com/jakobkilian) and [Eduard Paal](https://github.com/edipa), who also give the course. 
