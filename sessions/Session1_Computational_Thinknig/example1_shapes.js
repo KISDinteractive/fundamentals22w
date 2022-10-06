@@ -16,6 +16,5 @@ function draw() {
   
   //white cricle 
   fill(255);
-  circle(300,300,150)
-  
+  circle(300,300,150);
 }
