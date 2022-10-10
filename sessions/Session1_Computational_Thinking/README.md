@@ -66,7 +66,7 @@
 
 - **Task:** add a red rectangle with green outline and a circle of any color that resides in one of the rects.
 
-- **Student's Outcomes**: [link to folder](students-outcome/task2-circle).
+- **Student's Outcomes**: [link to folder](students-outcomes/task2-circle).
 
 - **Sample Solution:** you can find *one* possible solution in [this code file](src/task2-circle.js).
 
@@ -80,11 +80,11 @@
 
 ### 3rd Exercise (individual task): Creatures
 
-- **Student's Outcomes**: [link to folder](students-outcome/task3-creature).
+- **Student's Outcomes**: [link to folder](students-outcomes/task3-creature).
 
 ### 3rd Exercise (individual task): Interaction
 
-- **Student's Outcomes**: [link to folder](students-outcome/task4-interaction).
+- **Student's Outcomes**: [link to folder](students-outcomes/task4-interaction).
 
 
 
