@@ -68,6 +68,8 @@
 
 - **Student's Outcomes**: [link to folder](students-outcomes/task2-circle).
 
+![Student's Outcome of the second task](students-outcomes/task2-circle/task2-circle-overview.jpg)
+
 - **Sample Solution:** you can find *one* possible solution in [this code file](src/task2-circle.js).
 
 - **Comments:** the solution can by achieved by repeating the 1st task for another rectangle and then add a circle ( `circle(150,100,70);`). Note that `fill()`and `stroke()`apply for **all** of the following shapes until you 
@@ -82,9 +84,13 @@
 
 - **Student's Outcomes**: [link to folder](students-outcomes/task3-creature).
 
+![Student's Outcome of the third task](students-outcomes/task3-creature/task3-creature-overview.jpg)
+
 ### 3rd Exercise (individual task): Interaction
 
 - **Student's Outcomes**: [link to folder](students-outcomes/task4-interaction).
+
+![Student's Outcome of the third task](students-outcomes/task4-interaction/task4-interaction-overview.jpg)
 
 
 
