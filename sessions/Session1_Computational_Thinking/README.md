@@ -102,7 +102,7 @@
 
 - In order for systems to interact, their respective inputs/outputs have to be compatible  
 
-   <img src="img/msedge_RCy6Y2rtHR.png" width= 70% height=70%>
+     <img src="img/msedge_RCy6Y2rtHR.png" width= 70% height=70%>
 
 - Also functions can be described as systems which take parameters as inputs. In order to make the color and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
 
