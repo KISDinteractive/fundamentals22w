@@ -101,13 +101,21 @@
 - In information theory, _systems_ describe structures in which information enter through inputs of the system, are transformed internally and exit the system through outputs
 
 - In order for systems to interact, their respective inputs/outputs have to be compatible  
-width=50% height=50%>
-![Interaction](img/msedge_RCy6Y2rtHR.png)
+
+   <img src="img/msedge_RCy6Y2rtHR.png" width= 70% height=70%>
 
 - Also functions can be described as systems which take parameters as inputs. In order to make the color and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
-![mouseXmouseY](img/msedge_7iQrINcRsm.png)
+
+    <img src="img/msedge_7iQrINcRsm.png" width=80% height=80%>
 
 
+### Conditionals:
+
+- On order to control the flow of code, conditionals are used:
+
+<img src="img/msedge_shiep6qPgq.png" width=70% height=70%>
+
+<img src="img/msedge_guzbRlNlXQ.png" width=70% height=70%>
 
 
 
