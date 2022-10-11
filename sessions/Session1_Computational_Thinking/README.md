@@ -97,7 +97,13 @@
 **Comments:**
 
 - Interaction describes the relationship between Action and Reaction between two or more systems
-![Interaction](img/msedge_7QOxcBKp3U.png)
+
+- In information theory, _systems_ describe structures in which information enter through inputs of the system, are transformed internally and exit the system through outputs
+
+- In order for systems to interact, the interface at their inputs/outputs have to be compatible  
+
+![Interaction](img/msedge_RCy6Y2rtHR.png)
+
 
 
 
