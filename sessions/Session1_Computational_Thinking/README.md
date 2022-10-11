@@ -106,7 +106,7 @@ width=50% height=50%>
 
 - Also functions can be described as systems which take parameters as inputs. In order to make the color and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
 ![mouseXmouseY](img/msedge_7iQrINcRsm.png)
-<img src="sessions/Session1_Computational_Thinking/img/msedge_7iQrINcRsm.png" width=50% height=50% >
+
 
 
 
