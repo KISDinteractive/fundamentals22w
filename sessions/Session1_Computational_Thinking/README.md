@@ -100,10 +100,12 @@
 
 - In information theory, _systems_ describe structures in which information enter through inputs of the system, are transformed internally and exit the system through outputs
 
-- In order for systems to interact, the interface at their inputs/outputs have to be compatible  
+- In order for systems to interact, their respective inputs/outputs have to be compatible  
 
 ![Interaction](img/msedge_RCy6Y2rtHR.png)
 
+- Also functions can be described as systems which take parameters as inputs. In order to make the color and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
+!(https://github.com/KISDinteractive/fundamentals22w)
 
 
 
