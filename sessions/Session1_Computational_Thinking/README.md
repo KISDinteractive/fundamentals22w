@@ -97,7 +97,7 @@
 **Comments:**
 
 - Interaction describes the relationship between Action and Reaction between two or more systems
-[Interaction](img/msedge_7QOxcBKp3U.png)
+![Interaction](img/msedge_7QOxcBKp3U.png)
 
 
 
