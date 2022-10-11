@@ -44,15 +44,17 @@
 
 **Comments:**
 
-- Code in the **setup() function** is only called once, while the **draw() function** is repeated over and over again until the sketch gets stopped.
+- Code in the **setup() function** is only called once, while the **draw() function** is repeated over and over again until the sketch gets stopped
 
 - **Curly braces "{ ... }"** form a code block and hold together functions
 
-- A **semicolon ";"** ends and instruction. We add a linebreak for visual clarity.
+- **Parantheses "( ... )"** hold parameters in order to specify functions, multiple parameters are separated by a **comma ","**  
+
+- A **semicolon ";"** ends an instruction. We add a linebreak for visual clarity.
 
 - `createCanvas(400, 400);` creates an area of 400 by 400 pixels in which we can draw stuff.
 
-- `background(0);` fills this canvas with the greyscale color of *220*
+- `background(220);` fills this canvas with the greyscale color of *220*
 
 - `rect(50, 50, 200, 100);` creates a rectangle at the position x=50 and y=50 (from the upper left canvas edge) with a size of 200 pixels to 100 pixels (landscape).
 
