@@ -44,7 +44,9 @@
 
 **Comments:**
 
-- Code in the **setup() block** is only called once, while the **draw() block** is repeated over and over again until the sketch gets stopped.
+- Code in the **setup() function** is only called once, while the **draw() function** is repeated over and over again until the sketch gets stopped.
+
+- **Curly braces "{ ... }"** form a code block and hold together functions
 
 - A **semicolon ";"** ends and instruction. We add a linebreak for visual clarity.
 
