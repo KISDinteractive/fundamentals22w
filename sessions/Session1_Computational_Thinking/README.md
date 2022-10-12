@@ -113,9 +113,9 @@
 
 - On order to control the flow of code, conditionals are used:
 
-<img src="./img/msedge_shiep6qPgq.png" width="100">
+<img src="./img/msedge_shiep6qPgq.png" width="200px">
 
-<img src="./img/msedge_guzbRlNlXQ.png" width=70%>
+<img src="./img/msedge_guzbRlNlXQ.png" width="70%">
 
 
 
