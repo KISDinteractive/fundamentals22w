@@ -115,7 +115,7 @@
 
  <div> <img src="img/msedge_shiep6qPgq.png" width=70% height=70% class="img-responsive" alt="" > </div>
 
- <div> <img src="/img/msedge_guzbRlNlXQ.png" width=70% height=70% class="img-responsive" alt="" > </div>
+ <div> <img src="img/msedge_guzbRlNlXQ.png" width=70% height=70% class="img-responsive" alt="" > </div>
 
 
 
