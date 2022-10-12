@@ -60,9 +60,9 @@
 
 - putting `stroke(255);` *before* our rect will cause it to have a white outline. Here the **color** is set by defining a greyscale value (0-255). One could also use rgb like above.
 
-<img src="img/rect-instruction.jpg" width="70%" height="70%" alt="The rect() instruction">
+<img src="img/rect-instruction.jpg" width="80%" alt="The rect() instruction">
 
-<img src="img/color-instruction.jpg" width="70%" height="70%" alt="The stroke() and fill() instructions">
+<img src="img/color-instructions.jpg" width="80%" alt="The stroke() and fill() instructions">
 
 ### 2nd Exercise (individual task): Add Objects
 
@@ -81,7 +81,7 @@
   
   - b) get rid of them by using `noFill()`and `noStroke()` (which again applies for all of the following shapes)
 
-<img src="img/ellipse-instruction.jpg" width="70%" height="70%" alt="The ellipse() instruction">
+<img src="img/ellipse-instruction.jpg" width="80%" alt="The ellipse() instruction">
 
 
 ### 3rd Exercise (individual task): Creatures
@@ -105,7 +105,7 @@
 
 - In order for systems to interact, their respective inputs/outputs have to be compatible  
 
-     <img src="img/msedge_RCy6Y2rtHR.png" width="70%" height="70%">
+     <img src="img/msedge_RCy6Y2rtHR.png" width="60%">
 
 - Also functions can be described as systems which take parameters as inputs. In order to make the color and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
 
@@ -116,7 +116,7 @@
 
 - On order to control the flow of code, conditionals are used:
 
-<img src="./img/msedge_shiep6qPgq.png" width="70%" height="70%">
+<img src="./img/msedge_shiep6qPgq.png" width="90%">
 
 <img src="./img/msedge_guzbRlNlXQ.png" width="70%" height="70%">
 
