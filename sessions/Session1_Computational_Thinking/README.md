@@ -60,9 +60,9 @@
 
 - putting `stroke(255);` *before* our rect will cause it to have a white outline. Here the **color** is set by defining a greyscale value (0-255). One could also use rgb like above.
 
-![The rect() instruction](img/rect-instruction.jpg)
+<img src="img/rect-instruction.jpg" width="70%" height="70%" alt="The rect() instruction">
 
-![The stroke() and fill() instructions](img/color-instructions.jpg)
+<img src="img/color-instruction.jpg" width="70%" height="70%" alt="The stroke() and fill() instructions">
 
 ### 2nd Exercise (individual task): Add Objects
 
@@ -70,7 +70,8 @@
 
 - **Student's Outcomes**: [link to folder](students-outcomes/task2-circle).
 
-![Student's Outcome of the second task](students-outcomes/task2-circle/task2-circle-overview.jpg)
+<img src="students-outcomes/task2-circle/task2-circle-overview.jpg" width="70%" height="70%" alt="Student's Outcome of the second task">
+
 
 - **Sample Solution:** you can find *one* possible solution in [this code file](src/task2-circle.js).
 
@@ -80,19 +81,21 @@
   
   - b) get rid of them by using `noFill()`and `noStroke()` (which again applies for all of the following shapes)
 
-![The ellipse() instruction](img/ellipse-instruction.jpg)
+<img src="img/ellipse-instruction.jpg" width="70%" height="70%" alt="The ellipse() instruction">
+
 
 ### 3rd Exercise (individual task): Creatures
 
 - **Student's Outcomes**: [link to folder](students-outcomes/task3-creature).
 
-![Student's Outcome of the third task](students-outcomes/task3-creature/task3-creature-overview.jpg)
+<img src="students-outcomes/task3-creature/task3-creature-overview.jpg" width="70%" height="70%" alt="Student's Outcome of the third task">
+
 
 ### 3rd Exercise (individual task): Interaction
 
 - **Student's Outcomes**: [link to folder](students-outcomes/task4-interaction).
 
-![Student's Outcome of the third task](students-outcomes/task4-interaction/task4-interaction-overview.jpg)
+<img src="students-outcomes/task4-interaction/task4-interaction-overview.jpg" width="70%" height="70%" alt="Student's Outcome of the third task">
 
 **Comments:**
 
@@ -102,20 +105,20 @@
 
 - In order for systems to interact, their respective inputs/outputs have to be compatible  
 
-     <img src="img/msedge_RCy6Y2rtHR.png" width= 70% height=70%>
+     <img src="img/msedge_RCy6Y2rtHR.png" width="70%" height="70%">
 
 - Also functions can be described as systems which take parameters as inputs. In order to make the color and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
 
-    <img src="img/msedge_7iQrINcRsm.png" width=80% height=80%>
+    <img src="img/msedge_7iQrINcRsm.png" width="80%" height="70%">
 
 
 ### Conditionals:
 
 - On order to control the flow of code, conditionals are used:
 
-<img src="./img/msedge_shiep6qPgq.png" width="200px">
+<img src="./img/msedge_shiep6qPgq.png" width="70%" height="70%">
 
-<img src="./img/msedge_guzbRlNlXQ.png" width="70%">
+<img src="./img/msedge_guzbRlNlXQ.png" width="70%" height="70%">
 
 
 
