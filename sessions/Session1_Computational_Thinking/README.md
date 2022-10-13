@@ -35,6 +35,9 @@
 - Some of the task in cooking are repetitive and occur repeatedly in different recipes. These sets of instructions that form a task are called **functions** in code and can be used over and over again. In the kitchen metaphor imagine them beeing a further "beginners cooking book" in the shelf. If you want you can write your own functions!
 ___
 ---
+__
+--
+
 ### 1st Exercise in p5js: Drawing rects
 
 **Task:** draw a blue rectangle with a white outline on black background.
