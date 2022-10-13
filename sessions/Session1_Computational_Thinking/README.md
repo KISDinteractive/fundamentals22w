@@ -16,8 +16,7 @@
 
 - 3 Coffee Breaks of 15 mins – please be back on time
 
---
-__
+---
 
 ### Kitchen Metaphor
 
