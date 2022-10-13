@@ -68,7 +68,7 @@
 
 <img src="img/color-instructions.jpg" width="80%" alt="The stroke() and fill() instructions">
 
---
+##
 
 ### 2nd Exercise (individual task): Add Objects
 
@@ -89,8 +89,7 @@
 
 <img src="img/ellipse-instruction.jpg" width="80%" alt="The ellipse() instruction">
 
---
-
+##
 ### 3rd Exercise (individual task): Creatures
 
 - **Student's Outcomes**: [link to folder](students-outcomes/task3-creature).
@@ -118,8 +117,7 @@
 
     <img src="img/msedge_7iQrINcRsm.png" width="80%" height="70%">
 
---
-
+##
 ### Conditionals:
 
 - On order to control the flow of code, conditionals are used:
@@ -128,7 +126,6 @@
 
 <img src="./img/msedge_guzbRlNlXQ.png" width="70%" height="70%">
 
---
 
 ## Homework: Install Processing!
 
