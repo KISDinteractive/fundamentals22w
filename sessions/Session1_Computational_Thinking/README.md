@@ -16,6 +16,8 @@
 
 - 3 Coffee Breaks of 15 mins – please be back on time
 
+--
+
 ### Kitchen Metaphor
 
 - We proposed a metaphor that compares coding with a cook in a kitchen. The cook, however, has no human qualities (e.g. intelligence, commons sense, ...) but is a "stupid" machine that can only execute commands and do calculations:
@@ -33,9 +35,7 @@
 - As we might want the same food again at a later point in time, we write all instructions down in a recipe. Something you would refer to as a **sketch**: a document that represents all the steps of the desired process.​
 
 - Some of the task in cooking are repetitive and occur repeatedly in different recipes. These sets of instructions that form a task are called **functions** in code and can be used over and over again. In the kitchen metaphor imagine them beeing a further "beginners cooking book" in the shelf. If you want you can write your own functions!
-___
----
-__
+
 --
 
 ### 1st Exercise in p5js: Drawing rects
@@ -68,6 +68,8 @@ __
 
 <img src="img/color-instructions.jpg" width="80%" alt="The stroke() and fill() instructions">
 
+--
+
 ### 2nd Exercise (individual task): Add Objects
 
 - **Task:** add a red rectangle with green outline and a circle of any color that resides in one of the rects.
@@ -87,6 +89,7 @@ __
 
 <img src="img/ellipse-instruction.jpg" width="80%" alt="The ellipse() instruction">
 
+--
 
 ### 3rd Exercise (individual task): Creatures
 
@@ -115,6 +118,7 @@ __
 
     <img src="img/msedge_7iQrINcRsm.png" width="80%" height="70%">
 
+--
 
 ### Conditionals:
 
@@ -124,7 +128,7 @@ __
 
 <img src="./img/msedge_guzbRlNlXQ.png" width="70%" height="70%">
 
-
+--
 
 ## Homework: Install Processing!
 
