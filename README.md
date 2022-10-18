@@ -2,7 +2,11 @@
 
 ![A close-up of a Turing Machine](img/Zuse-Z1.jpeg)
 
-Welcome to the repository (repo) of the KISD Interactive Systems [Fundamentals] course. 
+***Disclaimer:*** *This repo documents an Interaction Design course held at [KISD](https://kisd.de) in the winter term 2022/23. In the "sessions" section you can find supporting material to the four sessions for consolidation or rework in case of missed meetings. Please keep in mind that the transcript was not written for (scientific) completeness and a reading without participation in the course is of limited value.*
+
+## Intro
+
+Welcome to the repository of the KISD Interactive Systems [Fundamentals] course. 
 You are currently at the root of the repository with the "README" file. Every well-structured repo has this file, which gives an overview of what the repo is about, who the authors are, how to use the content, and how to contribute or ask questions.
 
 ## Sessions
@@ -10,7 +14,6 @@ You are currently at the root of the repository with the "README" file. Every we
 - 🤔 [**Session 1 – Computational Thinking**](/sessions/Session1_Computational_Thinking/README.md)
 
 - 📚 [**Session 2 – Context & Syntax**](/sessions/Session2_Context_and_Syntax/README.md)
-
 
 - Session 3 – Advanced Code
 
