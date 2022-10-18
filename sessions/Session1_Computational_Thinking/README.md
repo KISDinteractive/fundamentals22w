@@ -1,5 +1,9 @@
 # Session 1 | 10.10.2022 - Computational Thinking
 
+***Disclaimer:*** *This page offers supporting material for an Interaction Design course held at [KISD](https://kisd.de) in the winter term 2022/23. Visit the [landing page](https://github.com/KISDinteractive/fundamentals22w) of this course for more information.*
+
+
+
 ### Links Used during the Session
 
 - [Open the p5.js editor](https://editor.p5js.org)
@@ -68,7 +72,7 @@
 
 <img src="img/color-instructions.jpg" width="80%" alt="The stroke() and fill() instructions">
 
-##
+## 
 
 ### 2nd Exercise (individual task): Add Objects
 
@@ -77,7 +81,6 @@
 - **Student's Outcomes**: [link to folder](students-outcomes/task2-circle).
 
 <img src="students-outcomes/task2-circle/task2-circle-overview.jpg" width="70%" height="70%" alt="Student's Outcome of the second task">
-
 
 - **Sample Solution:** you can find *one* possible solution in [this code file](src/task2-circle.js).
 
@@ -89,13 +92,13 @@
 
 <img src="img/ellipse-instruction.jpg" width="80%" alt="The ellipse() instruction">
 
-##
+## 
+
 ### 3rd Exercise (individual task): Creatures
 
 - **Student's Outcomes**: [link to folder](students-outcomes/task3-creature).
 
 <img src="students-outcomes/task3-creature/task3-creature-overview.jpg" width="70%" height="70%" alt="Student's Outcome of the third task">
-
 
 ### 3rd Exercise (individual task): Interaction
 
@@ -110,14 +113,15 @@
 - In information theory, _systems_ describe structures in which information enter through inputs of the system, are transformed internally and exit the system through outputs
 
 - In order for systems to interact, their respective inputs/outputs have to be compatible  
-
-     <img src="img/msedge_RCy6Y2rtHR.png" width="60%">
+  
+  <img src="img/msedge_RCy6Y2rtHR.png" width="60%">
 
 - Also functions can be described as systems which take parameters as inputs. In order to make the color and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
+  
+  <img src="img/msedge_7iQrINcRsm.png" width="80%" height="70%">
 
-    <img src="img/msedge_7iQrINcRsm.png" width="80%" height="70%">
+## 
 
-##
 ### Conditionals:
 
 - On order to control the flow of code, conditionals are used:
@@ -125,7 +129,6 @@
 <img src="./img/msedge_shiep6qPgq.png" width="90%">
 
 <img src="./img/msedge_guzbRlNlXQ.png" width="70%" height="70%">
-
 
 ## Homework: Install Processing!
 
