@@ -8,15 +8,15 @@ We started with some content and context about the origins and history of the mo
 
 ### Counting and Numbers
 
-- **Counting** → important since beginning of humanity. Carving lines into sticks has been used fro thousands of years for recording e.g. debts.
-- Counting visible things (e.g. with fingers) is simple. Higher numbers and math operations need countinng **systems**.
+- **Counting** → important since beginning of humanity. Carving lines into sticks has been used for thousands of years for recording e.g. debts.
+- Counting visible things (e.g. with fingers) is simple. Higher numbers and math operations need counting **systems**.
 - **Decimal system** was developed in different places and times. Still no positional number system to write down numbers effectively.
 - **Hindu-Arabic numerals** (and the positional system), which we know today, spread from India via the Arabic region to Europe. Similar decimal systems also existed in China.
 - **Roman numerals** were predominant until a few hundred years ago. They could only be used to write down numbers, but not to perform mathematical operations with them (no pure positional system, but decimal numbers).
 
 ### Calculation Machines
 
-- Oldest and most famous is the "**Abacus**". Long before hindu-arabic numerals!
+- Oldest and most famous is the "**Abacus**". Long before Hindu-Arabic numerals!
 - Again, development took place at various places and times. Sometimes connected, sometimes independent. 
 - **Why is this of relevance for computers?** For centuries and centuries → the Abacus wasn't just the number one calculating tool but the only one (besides mental arithmetic).
 - First mechanical devices around 400 years ago → next chapter
@@ -53,13 +53,13 @@ We started with some content and context about the origins and history of the mo
 
 - In the 190's many researched and worked on the development of logic machines with new relay technology. 
 
-- However first programmable computer was th **"Z1" by Konrad Zuse** (1910 – 1995) presented in 1938. 
+- However first programmable computer was the **"Z1" by Konrad Zuse** (1910 – 1995) presented in 1938. 
   
   - Binary and electrically driven
   
   - Though fully mechanical (no relays)
   
-  - Programmability through punched colleloid film
+  - Programmability through punched colluloid film
   
   - Didn't work reliably because mechanical parts got stuck quickly
 
@@ -81,7 +81,7 @@ We started with some content and context about the origins and history of the mo
   
   - ... even more categories
   
-  - In the course we investigated some furhter examples with images
+  - In the course we investigated some further examples with images
   
   - worth to mention that these advances **roughly went from 1940 to 1950**
 
@@ -103,7 +103,7 @@ Excursion about the term "computer" and its previous use for human computers.
 
 ### Computer Science as a Theoretical Field & Alan Turing
 
-Alan Turing (1912 – 1954)​ was a mathematican. In 1936 he tried to prove a mathematical problem and by doing that came up with the **theoretical model explaining the function of any alogrithm and modern computer** called the **Turing Machine**. With his proposition he – kind of unintended / accidentally – founded computer science as a scientific field.
+Alan Turing (1912 – 1954)​ was a mathematician. In 1936 he tried to prove a mathematical problem and by doing that came up with the **theoretical model explaining the function of any algorithm and modern computer** called the **Turing Machine**. With his proposition he – kind of unintended / accidentally – founded computer science as a scientific field.
 
 He is most known (outside computer science and theory) for two other things:
 
@@ -115,7 +115,7 @@ He is most known (outside computer science and theory) for two other things:
   
   - Some consider this success to be closely linked to the end of the war, brought forward by one or more years, and put the number of lives saved at several million.
 
-- The **Turing Test** or (as he called it) **The Immitation Game**
+- The **Turing Test** or (as he called it) **The Imitation Game**
   
   - thought experiment that should give answers to the question if "a machine can think"
   
@@ -127,23 +127,23 @@ But the story of Alan Turing also includes the shameful discrimination he experi
 
 ## 2.2 History of Coding Languages
 
-- In the beginning (first computers) programming was done by punch hole cards/film. Often no permanent storage, no/few input and ouput possibilities.
+- In the beginning (first computers) programming was done by punch hole cards/film. Often no permanent storage, no/few input and output possibilities.
 
-- Today we have operating systems and plenty of coding languages at hand. Code is stored in permanend storage, entered with keyboard and mouse and revised and executed with a screen.
+- Today we have operating systems and plenty of coding languages at hand. Code is stored in permanent storage, entered with keyboard and mouse and revised and executed with a screen.
 
-- Before looking on the different Coding languages: short excursion in the development of modern computers (using transistors and integrated ciruits)
+- Before looking on the different Coding languages: short excursion in the development of modern computers (using transistors and integrated circuits)
 
 ### The Modern Computer
 
-- We already got to know the first generations of computers powerd by mechanics, relays, tubes and then transistors.
+- We already got to know the first generations of computers powered by mechanics, relays, tubes and then transistors.
 
 - From 1960 to 1970: many new computers; got smaller; more powerful (due to transistors and ICs). Still huge (minicomputer = size of a fridge)
 
 - Still expensive and mostly for military, science or big businesses. No commercial success for home use
 
-- **1975: Altair 880.** Hosting a microprozessor; smaller (called microcomputer); only about 500 USD.
+- **1975: Altair 880.** Hosting a microprocessor; smaller (called microcomputer); only about 500 USD.
 
-- **1977: Apple II  (1298 USD):** highly sucessfull; more power; 16 color display; video games
+- **1977: Apple II  (1298 USD):** highly sucessful; more power; 16 color display; video games
 
 - The so called **1977 Trinity** Apple II; Commodore PET 2001; TRS-80
 
@@ -153,17 +153,13 @@ But the story of Alan Turing also includes the shameful discrimination he experi
 
 - **1984: Mac OS** and one year later in **1985 Windows 1.0** as the first graphical operating systems.
 
-- After that the only major steps can be considered the invention of comercially successfull laptops (**Apple Powerbook 100** in 1991 and **Lenovo ThinkPad 300** in 1992​​) and the invention of functional smartphones with the **Apple iPhone in 2007**.
+- After that the only major steps can be considered the invention of commercially successful laptops (**Apple Powerbook 100** in 1991 and **Lenovo ThinkPad 300** in 1992​​) and the invention of functional smartphones with the **Apple iPhone in 2007**.
 
 - In the following years, computer got faster, hosted more storage and memory, needed less power → more about that in the chapter of how a modern computer works.
 
 ### Programming Languages
 
 In the course we discussed the profile and use of various languages an their history. Here we will only list the languages with a corresponding "Hello World!" code example (mostly inspired by[ this site](https://excelwithbusiness.com/blogs/news/say-hello-world-in-53-different-programming-languages))
-
-
-
-
 
 **FORTRAN (1955)​: ​**
 
@@ -172,8 +168,6 @@ program helloworld​
      print *, "Hello World!"​  
 end program helloworld
 ```
-
-
 
 **COBOL (1960):**
 
@@ -185,16 +179,12 @@ end program helloworld
            .​
 ```
 
-
-
 **BASIC (1964):**
 
 ```basic
 10 PRINT "Hello World!"​
 20 END
 ```
-
-
 
 **Pascal (1970):**
 
@@ -204,8 +194,6 @@ begin​
   Write('Hello World!')​
 end.
 ```
-
-
 
 **C (1972):**
 
@@ -217,8 +205,6 @@ int main(void)​
     printf("Hello World!\n");​
 }
 ```
-
-
 
 **C++ (1983):**
 
@@ -232,23 +218,17 @@ int main()​
 }
 ```
 
-
-
 **PERL (1987):**
 
 ```perl
 print "Hello World!\n";
 ```
 
-
-
 **Python (1991):**
 
 ```python
 print("Hello World!")​
 ```
-
-
 
 **Visual Basic (1991):**
 
@@ -264,15 +244,11 @@ End​
 End Sub
 ```
 
-
-
 **Ruby (1993):**
 
 ```ruby
 puts 'Hello World!'
 ```
-
-
 
 **Java (1995):**
 
@@ -284,23 +260,17 @@ class HelloWorldApp {​
 }
 ```
 
-
-
 **JavaScript (1995)​:**
 
 ```javascript
 console.log("Hello World!");​
 ```
 
-
-
 **PHP (1995)​:**
 
 ```php
 <?php echo "Hello World!";
 ```
-
-
 
 **C# (2000)​:**
 
@@ -316,8 +286,6 @@ class Program​
 }
 ```
 
-
-
 **Go (2009)​:**
 
 ```go
@@ -329,8 +297,6 @@ func main() {​
     fmt.Println("Hello World!")​
 }
 ```
-
-
 
 **Swift (2014)​:**
 
