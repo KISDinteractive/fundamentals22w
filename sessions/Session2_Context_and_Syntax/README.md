@@ -303,3 +303,23 @@ func main() {​
 ```swift
 println("Hello World!")
 ```
+## Transition to Processing
+
+For this session, we will use **Processing**, a Java-based framework for creative coding that shares a common history with p5.js.
+More on Processing at [https://processing.org/] 
+
+### Syntax
+
+The syntax of Processing is quite close to p5.js. Still, in order to migrate our final sketch from the last lesson from p5.js to Processing, we have to make a few adjustments:
+´´´ 
+function setup() -> void setup()​
+
+function draw() -> void draw()​
+
+createCanvas() -> size(); ​
+
+mouseIsPressed -> mousePressed
+
+´´´
+
+
