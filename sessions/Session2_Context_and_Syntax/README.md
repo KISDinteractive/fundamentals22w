@@ -372,7 +372,7 @@ Processing comes with a some built-in variables:
 * `width`
   * output: horizontal pixel-size of canvas
   * type: int
-  * 
+  
 * `height`
   * output: vertical picel-size of canvas
   * type: int
@@ -385,5 +385,131 @@ Processing comes with a some built-in variables:
   * output: amount of frames since start
   * type: int
 
+### User Defined Variables
+While system variables can just be called (like in `circle(mouseX,mouseY,50);`), it is possible to create user defined which give more options:
+
+ * Declare -> `int posX = 200;` 
+ * Call -> `circle(posX, mouseY, 50);`
+ * Control the scope
+ * Assign & reassign -> `posX = posX+1;`
+
+**Declaration of Variables**
+Before a variable can be used, it has to be created. The technical terms for this is _declaration_ and _initialization_ which technically are two things, but most commonly are done together in one line. It is neccessary to define a *type*, a *name* and initilize a *value*
+`int posX = 100`
+
+![image](https://user-images.githubusercontent.com/64174486/196782188-2d4c8f6d-c9c8-4872-9d72-81b791a703b8.png)
+
+**Calling**
+A previously declared variable can be called by using its name
+`circle(posX, mouseY, 50);`
+
+**Scope**
+![image](https://user-images.githubusercontent.com/64174486/196783896-ce11eb89-ac45-4bdb-8682-18e91800533e.png)
+
+**Variable Types**
+Refering to the container metaphor, there are different types of containers needed for different types of content.
+![image](https://user-images.githubusercontent.com/64174486/196784906-d26ae3b5-ef8b-45c1-9afe-f06aaf183111.png)
+
+**Assign & Reassign**
+The value of a variable can be manipulated. For this, mostly the Assignment Operator `=` is used. 
+`posX=100;`
+![image](https://user-images.githubusercontent.com/64174486/196785582-71d6a1c0-3d60-4df0-ade8-9b89a482168c.png)
+
+Example:
+```processing
+int posX = 100; //declaration
+circle(posX, 100, 50); //draw circle at (100,100)
+posX = 200; //overwrite current value of posX with 200
+circle(posX, 100, 50); //draw circle at (200,100)
+```
+
+Important: The Assignment Operator is not a 'equal'-sign as a mathematical concept, indicating a equality between its right and left side. Instead it's taking whatever expression on the right side, and overrides the current value on the left side with it. Thus making it possible incrementing a variable, by reading its current value, adding to it, and updating its value:
+![image](https://user-images.githubusercontent.com/64174486/196787354-de8475d7-57ed-4537-9d49-ef06cb01c165.png)
+
+
+Example:
+```processing
+int posX = 100; //declaration
+circle(posX, 100, 50); //draw circle at 100,100
+posX = posX+100; //add 100 to current value of posX
+circle(posX, 100, 50); //draw circle at 200,100
+```
+There are multiple ways of incrementing a value.
+Example - Incrementing a value by one:
+
+```processing
+value = value + 1;
+value += 1;
+value++;
+```
+Please note the last option `value++;` and 'value--;` is only useable for incrementing or decrementing by one 
+
+### Task: Stalking Circle
+```processing
+int posX=0;
+int posY=0;
+
+void setup() {
+  size(800, 800);
+}
+void draw () {
+  if (mouseX>posX) {
+    posX++;
+  } else {
+    posX--;
+  }
+  if (mouseY>posY){
+    posY++;
+  } else {
+    posY--;
+  }
+  circle(posX, posY, 100);
+}
+```
+
+## Loops
+Loops are used in order to execute similar sets of instructions for a defined number of time. 
+![image](https://user-images.githubusercontent.com/64174486/196789080-5f53729d-0839-4cc8-9cdc-68410f5e51fc.png)
+
+Example: Drawing 4 lines
+
+without a for-loop:
+```processing
+void draw(){​
+line(0,100,width,100);​
+line(0,200,width,200);​
+line(0,300,width,300);​
+line(0,400,width,400);​
+}
+```
+with a for-loop:
+```processing
+void draw(){
+for (int i=1;i<5;i++) {
+ line(0,i*100,width,i*100);
+}​
+```
+The counter-variable (mostly being named 'i') can be used also inside the loop as a parameter for its functions, thus drawing the lines a different coordinates each.
+![image](https://user-images.githubusercontent.com/64174486/196790185-c7fd7173-9189-4d15-8a33-9d0d28c5053c.png)
+
+**Task: Grid**
+```processing
+void setup() {​
+  size(800, 800);​
+  background(250);​
+}​
+void draw() {​
+  int interval= 60;​
+  int amount= 20;​  
+​
+  for (int posX = 0; posX<amount; posX++) {​
+    line(posX*interval, 0, posX*interval, height);​
+  }​
+  for (int posY = 0; posY<amount; posY++) {​
+    line(0, posY*interval, width, posY*interval);​
+  }​
+}
+```
+![image](https://user-images.githubusercontent.com/64174486/196790446-0e466b4a-ddcc-45a5-9b86-df5bfa39a81b.png)
 
 
