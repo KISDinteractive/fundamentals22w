@@ -312,7 +312,7 @@ More on Processing at [https://processing.org/]
 
 The syntax of Processing is quite close to p5.js. Still, in order to migrate our final sketch from the last lesson from p5.js to Processing, we have to make a few adjustments:
 
-```
+```processing
 function setup() -> void setup()​
 
 function draw() -> void draw()​
@@ -325,16 +325,65 @@ mouseIsPressed -> mousePressed
 The resulting Processing sketch reads as follows:
 ```processing
 void setup() {
-size(800,800);
-background(255);
+  size(800,800);
+  background(255);
 }
 
 void draw(){
-if (mousePressed == true) {
-fill (mouseX,0,mouseY,50);
-} else {
-fill(255);
-}
-ellipse(mouseX,mouseY,80,80);
+  if (mousePressed == true) {
+    fill (mouseX,0,mouseY,50);
+  } else {
+    fill(255);
+  }
+  ellipse(mouseX,mouseY,80,80);
 }
 ```
+
+## Variables
+
+Variables are one of the most important concetps of programming. In contrast to hard-coded static values, variables are like storage containers, containing data. By refering to the respective container, the contained data can not only be accessed and thus reused multiple times, but can also be manipulated dynamicly.  
+
+### System Variables
+Processing comes with a some built-in variables: 
+* `mouseX`
+  * output: horizontal pixel-position of mouse
+  * type: int
+  
+* `mouseY`
+  * output: vertical pixel-position of mouse 
+  * type: int
+ 
+* `mousePressed`
+  * output: true/false
+  * type: boolean
+
+* `mouseButton`
+  * output: 0/LEFT/RIGHT/CENTER
+  * type: int
+
+* `keyPressed`
+  * output: true/false
+  * type: boolean
+
+* `key`
+  * output: character of the last key pressed
+  * type: char
+
+* `width`
+  * output: horizontal pixel-size of canvas
+  * type: int
+  * 
+* `height`
+  * output: vertical picel-size of canvas
+  * type: int
+  
+* `frameRate`
+  * output: current framerate
+  * type: int
+   
+* `frameCount`
+  * output: amount of frames since start
+  * type: int
+
+
+
