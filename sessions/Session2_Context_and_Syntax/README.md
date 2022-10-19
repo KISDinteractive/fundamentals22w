@@ -323,7 +323,7 @@ mouseIsPressed -> mousePressed
 ```
 
 The resulting Processing sketch reads as follows:
-```
+```processing
 void setup() {
 size(800,800);
 background(255);
