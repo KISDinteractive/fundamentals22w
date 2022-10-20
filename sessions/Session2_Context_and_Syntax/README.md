@@ -2,6 +2,10 @@
 
 ***Disclaimer:*** *This page offers supporting material for an Interaction Design course held at [KISD](https://kisd.de) in the winter term 2022/23. Visit the [landing page](https://github.com/KISDinteractive/fundamentals22w) of this course for more information.*
 
+---
+
+
+
 ## 2.1 Origins of the Computer
 
 We started with some content and context about the origins and history of the modern computers we use for programming.
@@ -125,6 +129,10 @@ He is most known (outside computer science and theory) for two other things:
 
 Story of Alan Turing also includes the shameful discrimination he experienced, which (probably) ended in his death: in 1952, he was arrested for having a homosexual relationship, hindered to work in his field and forced to undergo a so-called "hormone treatment". He was found dead in 1954, probably by suicide. After numerous petitions and the support of famous scientists such as Stephen Hawking, he was officially pardoned by Queen Elizabeth in 2014.
 
+---
+
+
+
 ## 2.2 History of Coding Languages
 
 - In the beginning (first computers) programming was done by punch hole cards/film. Often no permanent storage, no/few input and output possibilities.
@@ -160,8 +168,6 @@ Story of Alan Turing also includes the shameful discrimination he experienced, w
 ### Programming Languages
 
 In the course we discussed the profile and use of various languages an their history. Here we will only list the languages with a corresponding "Hello World!" code example (mostly inspired by[ this site](https://excelwithbusiness.com/blogs/news/say-hello-world-in-53-different-programming-languages))
-
-
 
 **FORTRAN (1955)​: ​**
 
@@ -308,6 +314,8 @@ println("Hello World!")
 
 ---
 
+
+
 ## 2.3 Processing
 
 ### Transition to Processing
@@ -348,6 +356,8 @@ void draw(){
 ```
 
 ---
+
+
 
 ## 2.4 Variables
 
@@ -428,21 +438,20 @@ Before a variable can be used, it has to be created. The technical terms for thi
 A previously declared variable can be called by using its name
 `circle(posX, mouseY, 50);`
 
-#### Scope 
-
+#### Scope
 
 ![image](img/var_scopes.jpg)
 
 #### Variable Types
-Refering to the container metaphor, there are different types of containers needed for different types of content.
 
+Refering to the container metaphor, there are different types of containers needed for different types of content.
 
 ![image](img/var_types.jpg)
 
 #### Assign & Reassign
+
 The value of a variable can be manipulated. For this, mostly the Assignment Operator `=` is used. 
 `posX=100;`
-
 
 <img src="img/var_assignment.jpg" title="" alt="image" width="369">
 
@@ -457,10 +466,7 @@ circle(posX, 100, 50); //draw circle at (200,100)
 
 Important: The Assignment Operator is not a 'equal'-sign as a mathematical concept, indicating a equality between its right and left side. Instead it's taking whatever expression on the right side, and overrides the current value on the left side with it. Thus making it possible incrementing a variable, by reading its current value, adding to it, and updating its value:
 
-
 <img src="img/var_reassignment.jpg" title="" alt="image" width="377">
-
-
 
 Example:
 
@@ -506,14 +512,15 @@ void draw () {
 }
 ```
 
+---
+
+
+
 ## 2.5 Loops
 
 Loops are used in order to execute similar sets of instructions for a defined number of time. 
 
-
 ![image](img/for_loop.jpg)
-
-
 
 Example: Drawing 4 lines
 
@@ -539,10 +546,7 @@ for (int i=1;i<5;i++) {
 
 The counter-variable (mostly being named 'i') can be used also inside the loop as a parameter for its functions, thus drawing the lines a different coordinates each.
 
-
 ![image](img/for_loop_explanation.jpg)
-
-
 
 ### Task: Grid
 
@@ -563,7 +567,5 @@ void draw() {​
   }​
 }
 ```
-
-
 
 <img src="img/grid.jpg" title="" alt="image" width="350">
