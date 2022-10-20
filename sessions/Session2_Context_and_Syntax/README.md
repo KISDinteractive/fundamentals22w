@@ -421,26 +421,34 @@ Before a variable can be used, it has to be created. The technical terms for thi
 #### Calling
 
 A previously declared variable can be called by using its name
-`circle(posX, mouseY, 50);`
+
+```processing
+circle(posX, mouseY, 50);
+```
 
 #### Scope
+
+Variables have a limited "scope". If created outside all functions (like `setup()` and `draw()`) like `variable1` they are **global** and can be called from everywhere. When created inside of functions, they are only accessible inside of this function. Also check the slide:
 
 ![image](img/var_scopes.jpg)
 
 #### Variable Types
 
-Referring to the container metaphor, there are different types of containers needed for different types of content.
+Referring to the container metaphor, there are different types of containers needed for different types of content. In Processing we usually use these (**bold** for the most important):
 
 ![image](img/var_types.jpg)
 
 #### Assign & Reassign
 
-The value of a variable can be manipulated. For this, mostly the Assignment Operator `=` is used. 
-`posX=100;`
+The value of a variable can be changed/manipulated. For this, mostly the Assignment Operator `=` is used: 
+
+```processing
+posX=100;
+```
 
 <img src="img/var_assignment.jpg" title="" alt="image" width="369">
 
-Example:
+**Example:**
 
 ```processing
 int posX = 100; //declaration
@@ -449,11 +457,11 @@ posX = 200; //overwrite current value of posX with 200
 circle(posX, 100, 50); //draw circle at (200,100)
 ```
 
-Important: The Assignment Operator is not a 'equal'-sign as a mathematical concept, indicating a equality between its right and left side. Instead it's taking whatever expression on the right side, and overrides the current value on the left side with it. Thus making it possible incrementing a variable, by reading its current value, adding to it, and updating its value:
+**Note:** The Assignment Operator is not a 'equal'-sign as a mathematical concept, indicating a equality between its right and left side. Instead it's taking whatever expression on the **right side**, and overrides the current value on the **left side** with it. Thus making it possible incrementing a variable, by reading its current value, adding to it, and updating its value, like so:
 
 <img src="img/var_reassignment.jpg" title="" alt="image" width="377">
 
-Example:
+**Example:**
 
 ```processing
 int posX = 100; //declaration
@@ -462,8 +470,9 @@ posX = posX+100; //add 100 to current value of posX
 circle(posX, 100, 50); //draw circle at 200,100
 ```
 
-There are multiple ways of incrementing a value.
-Example - Incrementing a value by one:
+There are several ways to increment a value.
+
+**Example - Incrementing a value by one:**
 
 ```processing
 value = value + 1;
@@ -471,9 +480,13 @@ value += 1;
 value++;
 ```
 
-Please note the last option `value++;` and 'value--;` is only useable for incrementing or decrementing by one 
+Please note the last option `value++;` and `value--;` is only useable for incrementing or decrementing **by one **.
 
 ### Task: Stalking Circle
+
+All participants had to come up with a circle that follows the mouse pointer in a smooth animation. 
+
+**Solution:**
 
 ```processing
 int posX=0;
@@ -499,11 +512,11 @@ void draw () {
 
 ## 2.5 Loops
 
-Loops are used in order to execute similar sets of instructions for a defined number of time. 
+Loops are used to execute similar sets of instructions a specified number of times. We learned to use the most common one – the **for loop:**
 
 ![image](img/for_loop.jpg)
 
-Example: Drawing 4 lines
+**Example: Drawing 4 lines**
 
 without a for-loop:
 
@@ -531,6 +544,16 @@ The counter-variable (mostly being named 'i') can be used also inside the loop a
 
 ### Task: Grid
 
+Last task for the day was to create a grid like this: 
+
+<img src="img/grid.jpg" title="" alt="image" width="350">
+
+For this we used the newly learned `for()` loop and the `line()` instruction:
+
+![image](img/line.jpg)
+
+**Solution:**
+
 ```processing
 void setup() {​
   size(800, 800);​
@@ -548,5 +571,3 @@ void draw() {​
   }​
 }
 ```
-
-<img src="img/grid.jpg" title="" alt="image" width="350">
