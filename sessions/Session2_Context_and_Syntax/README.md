@@ -2,8 +2,6 @@
 
 ***Disclaimer:*** *This page offers supporting material for an Interaction Design course held at [KISD](https://kisd.de) in the winter term 2022/23. Visit the [landing page](https://github.com/KISDinteractive/fundamentals22w) of this course for more information.*
 
----
-
 
 
 ## 2.1 Origins of the Computer
@@ -129,8 +127,6 @@ He is most known (outside computer science and theory) for two other things:
 
 Story of Alan Turing also includes the shameful discrimination he experienced, which (probably) ended in his death: in 1952, he was arrested for having a homosexual relationship, hindered to work in his field and forced to undergo a so-called "hormone treatment". He was found dead in 1954, probably by suicide. After numerous petitions and the support of famous scientists such as Stephen Hawking, he was officially pardoned by Queen Elizabeth in 2014.
 
----
-
 
 
 ## 2.2 History of Coding Languages
@@ -177,6 +173,8 @@ program helloworld​
 end program helloworld
 ```
 
+---
+
 **COBOL (1960):**
 
 ```cobol
@@ -187,12 +185,16 @@ end program helloworld
            .​
 ```
 
+---
+
 **BASIC (1964):**
 
 ```basic
 10 PRINT "Hello World!"​
 20 END
 ```
+
+---
 
 **Pascal (1970):**
 
@@ -202,6 +204,8 @@ begin​
   Write('Hello World!')​
 end.
 ```
+
+---
 
 **C (1972):**
 
@@ -213,6 +217,8 @@ int main(void)​
     printf("Hello World!\n");​
 }
 ```
+
+---
 
 **C++ (1983):**
 
@@ -226,17 +232,23 @@ int main()​
 }
 ```
 
+---
+
 **PERL (1987):**
 
 ```perl
 print "Hello World!\n";
 ```
 
+---
+
 **Python (1991):**
 
 ```python
 print("Hello World!")​
 ```
+
+---
 
 **Visual Basic (1991):**
 
@@ -252,11 +264,15 @@ End​
 End Sub
 ```
 
+---
+
 **Ruby (1993):**
 
 ```ruby
 puts 'Hello World!'
 ```
+
+---
 
 **Java (1995):**
 
@@ -268,17 +284,23 @@ class HelloWorldApp {​
 }
 ```
 
+---
+
 **JavaScript (1995)​:**
 
 ```javascript
 console.log("Hello World!");​
 ```
 
+---
+
 **PHP (1995)​:**
 
 ```php
 <?php echo "Hello World!";
 ```
+
+---
 
 **C# (2000)​:**
 
@@ -294,6 +316,8 @@ class Program​
 }
 ```
 
+---
+
 **Go (2009)​:**
 
 ```go
@@ -306,13 +330,13 @@ func main() {​
 }
 ```
 
+---
+
 **Swift (2014)​:**
 
 ```swift
 println("Hello World!")
 ```
-
----
 
 
 
@@ -354,8 +378,6 @@ void draw(){
   ellipse(mouseX,mouseY,80,80);
 }
 ```
-
----
 
 
 
@@ -511,8 +533,6 @@ void draw () {
   circle(posX, posY, 100);
 }
 ```
-
----
 
 
 
