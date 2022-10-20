@@ -123,7 +123,7 @@ He is most known (outside computer science and theory) for two other things:
   
   - He estimated the test to be passed around 2000. Some already claim to have passed the test, some state that the definition is too loose and instead bring new test setups forward → discussion in the course about today's implications
 
-But the story of Alan Turing also includes the shameful discrimination he experienced, which (probably) ended in his death: in 1952, he was arrested for having a homosexual relationship, hindered to work in his field and forced to undergo a so-called "hormone treatment". He was found dead in 1954, probably by suicide. After numerous petitions and the support of famous scientists such as Stephen Hawking, he was officially pardoned by Queen Elizabeth in 2014.
+Story of Alan Turing also includes the shameful discrimination he experienced, which (probably) ended in his death: in 1952, he was arrested for having a homosexual relationship, hindered to work in his field and forced to undergo a so-called "hormone treatment". He was found dead in 1954, probably by suicide. After numerous petitions and the support of famous scientists such as Stephen Hawking, he was officially pardoned by Queen Elizabeth in 2014.
 
 ## 2.2 History of Coding Languages
 
@@ -160,6 +160,8 @@ But the story of Alan Turing also includes the shameful discrimination he experi
 ### Programming Languages
 
 In the course we discussed the profile and use of various languages an their history. Here we will only list the languages with a corresponding "Hello World!" code example (mostly inspired by[ this site](https://excelwithbusiness.com/blogs/news/say-hello-world-in-53-different-programming-languages))
+
+
 
 **FORTRAN (1955)​: ​**
 
@@ -303,12 +305,17 @@ func main() {​
 ```swift
 println("Hello World!")
 ```
-## Transition to Processing
 
-For this session, we will use **Processing**, a Java-based framework for creative coding that shares a common history with p5.js.
+---
+
+## 2.3 Processing
+
+### Transition to Processing
+
+For this session, we used **Processing**, a Java-based framework for creative coding that shares a common history with p5.js.
 More on Processing at [https://processing.org/] 
 
-### Syntax
+#### Differences in Syntax
 
 The syntax of Processing is quite close to p5.js. Still, in order to migrate our final sketch from the last lesson from p5.js to Processing, we have to make a few adjustments:
 
@@ -323,6 +330,7 @@ mouseIsPressed -> mousePressed
 ```
 
 The resulting Processing sketch reads as follows:
+
 ```processing
 void setup() {
   size(800,800);
@@ -339,83 +347,107 @@ void draw(){
 }
 ```
 
-## Variables
+---
+
+## 2.4 Variables
 
 Variables are one of the most important concetps of programming. In contrast to hard-coded static values, variables are like storage containers, containing data. By refering to the respective container, the contained data can not only be accessed and thus reused multiple times, but can also be manipulated dynamicly.  
 
 ### System Variables
+
 Processing comes with a some built-in variables: 
+
 * `mouseX`
+  
   * output: horizontal pixel-position of mouse
   * type: int
-  
+
 * `mouseY`
+  
   * output: vertical pixel-position of mouse 
   * type: int
- 
+
 * `mousePressed`
+  
   * output: true/false
   * type: boolean
 
 * `mouseButton`
+  
   * output: 0/LEFT/RIGHT/CENTER
   * type: int
 
 * `keyPressed`
+  
   * output: true/false
   * type: boolean
 
 * `key`
+  
   * output: character of the last key pressed
   * type: char
 
 * `width`
+  
   * output: horizontal pixel-size of canvas
   * type: int
-  
+
 * `height`
+  
   * output: vertical picel-size of canvas
   * type: int
-  
+
 * `frameRate`
+  
   * output: current framerate
   * type: int
-   
+
 * `frameCount`
+  
   * output: amount of frames since start
   * type: int
 
 ### User Defined Variables
+
 While system variables can just be called (like in `circle(mouseX,mouseY,50);`), it is possible to create user defined which give more options:
 
- * Declare -> `int posX = 200;` 
- * Call -> `circle(posX, mouseY, 50);`
- * Control the scope
- * Assign & reassign -> `posX = posX+1;`
+* Declare -> `int posX = 200;` 
+* Call -> `circle(posX, mouseY, 50);`
+* Control the scope
+* Assign & reassign -> `posX = posX+1;`
 
-**Declaration of Variables**
+#### Declaration of Variables
+
 Before a variable can be used, it has to be created. The technical terms for this is _declaration_ and _initialization_ which technically are two things, but most commonly are done together in one line. It is neccessary to define a *type*, a *name* and initilize a *value*
 `int posX = 100`
 
-![image](https://user-images.githubusercontent.com/64174486/196782188-2d4c8f6d-c9c8-4872-9d72-81b791a703b8.png)
+<img title="" src="img/var_declaration.jpg" alt="image" width="444">
 
-**Calling**
+#### Calling
+
 A previously declared variable can be called by using its name
 `circle(posX, mouseY, 50);`
 
-**Scope**
-![image](https://user-images.githubusercontent.com/64174486/196783896-ce11eb89-ac45-4bdb-8682-18e91800533e.png)
+#### Scope 
 
-**Variable Types**
+
+![image](img/var_scopes.jpg)
+
+#### Variable Types
 Refering to the container metaphor, there are different types of containers needed for different types of content.
-![image](https://user-images.githubusercontent.com/64174486/196784906-d26ae3b5-ef8b-45c1-9afe-f06aaf183111.png)
 
-**Assign & Reassign**
+
+![image](img/var_types.jpg)
+
+#### Assign & Reassign
 The value of a variable can be manipulated. For this, mostly the Assignment Operator `=` is used. 
 `posX=100;`
-![image](https://user-images.githubusercontent.com/64174486/196785582-71d6a1c0-3d60-4df0-ade8-9b89a482168c.png)
+
+
+<img src="img/var_assignment.jpg" title="" alt="image" width="369">
 
 Example:
+
 ```processing
 int posX = 100; //declaration
 circle(posX, 100, 50); //draw circle at (100,100)
@@ -424,16 +456,21 @@ circle(posX, 100, 50); //draw circle at (200,100)
 ```
 
 Important: The Assignment Operator is not a 'equal'-sign as a mathematical concept, indicating a equality between its right and left side. Instead it's taking whatever expression on the right side, and overrides the current value on the left side with it. Thus making it possible incrementing a variable, by reading its current value, adding to it, and updating its value:
-![image](https://user-images.githubusercontent.com/64174486/196787354-de8475d7-57ed-4537-9d49-ef06cb01c165.png)
+
+
+<img src="img/var_reassignment.jpg" title="" alt="image" width="377">
+
 
 
 Example:
+
 ```processing
 int posX = 100; //declaration
 circle(posX, 100, 50); //draw circle at 100,100
 posX = posX+100; //add 100 to current value of posX
 circle(posX, 100, 50); //draw circle at 200,100
 ```
+
 There are multiple ways of incrementing a value.
 Example - Incrementing a value by one:
 
@@ -442,9 +479,11 @@ value = value + 1;
 value += 1;
 value++;
 ```
+
 Please note the last option `value++;` and 'value--;` is only useable for incrementing or decrementing by one 
 
 ### Task: Stalking Circle
+
 ```processing
 int posX=0;
 int posY=0;
@@ -467,13 +506,19 @@ void draw () {
 }
 ```
 
-## Loops
+## 2.5 Loops
+
 Loops are used in order to execute similar sets of instructions for a defined number of time. 
-![image](https://user-images.githubusercontent.com/64174486/196789080-5f53729d-0839-4cc8-9cdc-68410f5e51fc.png)
+
+
+![image](img/for_loop.jpg)
+
+
 
 Example: Drawing 4 lines
 
 without a for-loop:
+
 ```processing
 void draw(){​
 line(0,100,width,100);​
@@ -482,17 +527,25 @@ line(0,300,width,300);​
 line(0,400,width,400);​
 }
 ```
+
 with a for-loop:
+
 ```processing
 void draw(){
 for (int i=1;i<5;i++) {
  line(0,i*100,width,i*100);
 }​
 ```
-The counter-variable (mostly being named 'i') can be used also inside the loop as a parameter for its functions, thus drawing the lines a different coordinates each.
-![image](https://user-images.githubusercontent.com/64174486/196790185-c7fd7173-9189-4d15-8a33-9d0d28c5053c.png)
 
-**Task: Grid**
+The counter-variable (mostly being named 'i') can be used also inside the loop as a parameter for its functions, thus drawing the lines a different coordinates each.
+
+
+![image](img/for_loop_explanation.jpg)
+
+
+
+### Task: Grid
+
 ```processing
 void setup() {​
   size(800, 800);​
@@ -510,6 +563,7 @@ void draw() {​
   }​
 }
 ```
-![image](https://user-images.githubusercontent.com/64174486/196790446-0e466b4a-ddcc-45a5-9b86-df5bfa39a81b.png)
 
 
+
+<img src="img/grid.jpg" title="" alt="image" width="350">
