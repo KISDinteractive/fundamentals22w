@@ -356,7 +356,7 @@ createCanvas() → size(); ​
 mouseIsPressed → mousePressed
 ```
 
-The resulting Processing sketch reads as follows:
+The resulting Processing sketch reads as follows: [Link to Code File](src/Code1_Transition_To_Processing/Code1_Transition_To_Processing.pde)
 
 ```processing
 void setup() {
@@ -484,9 +484,10 @@ Please note the last option `value++;` and `value--;` is only useable for increm
 
 ### Task: Stalking Circle
 
-All participants had to come up with a circle that follows the mouse pointer in a smooth animation. 
+All participants had to come up with a circle that follows the mouse pointer in a smooth animation:
+<img src="img/task_stalking_circle.jpg" title="" alt="image" width="369">
 
-**Solution:**
+**Solution:** [Link to Code File](src/Code2_Stalking_Circle/Code2_Stalking_Circle.pde)
 
 ```processing
 int posX=0;
@@ -496,16 +497,19 @@ void setup() {
   size(800, 800);
 }
 void draw () {
+  //Follow the mouse vertically
   if (mouseX>posX) {
-    posX++;
+    posX++; //go down, if mouse is lower than circle
   } else {
-    posX--;
+    posX--; //go up, if mouse is higher than circle
   }
-  if (mouseY>posY){
-    posY++;
+  //Follow the mouse horizontally
+  if (mouseY>posY) {
+    posY++;  //go right, if mouse is right of circle
   } else {
-    posY--;
+    posY--;  //go left, if mouse is left of circle
   }
+  //draw circle
   circle(posX, posY, 100);
 }
 ```
@@ -552,22 +556,25 @@ For this we used the newly learned `for()` loop and the `line()` instruction:
 
 ![image](img/line.jpg)
 
-**Solution:**
+**Solution:** [Link to Code File](src/Code3_Draw_Grid/Code3_Draw_Grid.pde)
 
 ```processing
-void setup() {​
-  size(800, 800);​
-  background(250);​
-}​
-void draw() {​
-  int interval= 60;​
-  int amount= 20;​  
-​
-  for (int posX = 0; posX<amount; posX++) {​
-    line(posX*interval, 0, posX*interval, height);​
-  }​
-  for (int posY = 0; posY<amount; posY++) {​
-    line(0, posY*interval, width, posY*interval);​
-  }​
+void setup() {
+  size(800, 800);
+  background(250);
+}
+void draw() {
+  int interval= 60;  //distance between each line
+  int amount= 20;    //number of lines to be drawn
+
+  //draw vertical lines from left to right
+  for (int posX = 0; posX<amount; posX++) {
+    line(posX*interval, 0, posX*interval, height);
+  }
+
+  //draw horizontal lines from top to bottom
+  for (int posY = 0; posY<amount; posY++) {
+    line(0, posY*interval, width, posY*interval);
+  }
 }
 ```
