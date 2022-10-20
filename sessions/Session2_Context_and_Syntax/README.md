@@ -167,7 +167,7 @@ In the course we discussed the profile and use of various languages an their his
 
 ---
 
-**FORTRAN (1955)​: ​
+#### FORTRAN (1955)​: ​
 
 ```fortran
 program helloworld​  
@@ -177,7 +177,7 @@ end program helloworld
 
 ---
 
-##### COBOL (1960):
+#### COBOL (1960):
 
 ```cobol
       IDENTIFICATION DIVISION.​
@@ -189,7 +189,7 @@ end program helloworld
 
 ---
 
-##### BASIC (1964):
+#### BASIC (1964):
 
 ```basic
 10 PRINT "Hello World!"​
@@ -198,7 +198,7 @@ end program helloworld
 
 ---
 
-##### Pascal (1970):
+#### Pascal (1970):
 
 ```pascal
 program HelloWorld(output);​
@@ -209,7 +209,7 @@ end.
 
 ---
 
-##### C (1972):
+#### C (1972):
 
 ```c
 #include <stdio.h>​
@@ -222,7 +222,7 @@ int main(void)​
 
 ---
 
-##### C++ (1983):
+#### C++ (1983):
 
 ```cpp
 #include <iostream>​
@@ -236,7 +236,7 @@ int main()​
 
 ---
 
-##### PERL (1987):
+#### PERL (1987):
 
 ```perl
 print "Hello World!\n";
@@ -244,7 +244,7 @@ print "Hello World!\n";
 
 ---
 
-##### Python (1991):
+#### Python (1991):
 
 ```python
 print("Hello World!")​
@@ -252,7 +252,7 @@ print("Hello World!")​
 
 ---
 
-##### Visual Basic (1991):
+#### Visual Basic (1991):
 
 ```visual-basic
 Sub Main()​
@@ -268,7 +268,7 @@ End Sub
 
 ---
 
-##### Ruby (1993):
+#### Ruby (1993):
 
 ```ruby
 puts 'Hello World!'
@@ -276,7 +276,7 @@ puts 'Hello World!'
 
 ---
 
-##### Java (1995):
+#### Java (1995):
 
 ```java
 class HelloWorldApp {​
@@ -288,7 +288,7 @@ class HelloWorldApp {​
 
 ---
 
-##### JavaScript (1995)​:
+#### JavaScript (1995)​:
 
 ```javascript
 console.log("Hello World!");​
@@ -296,7 +296,7 @@ console.log("Hello World!");​
 
 ---
 
-##### PHP (1995)​:
+#### PHP (1995)​:
 
 ```php
 <?php echo "Hello World!";
@@ -304,7 +304,7 @@ console.log("Hello World!");​
 
 ---
 
-##### C# (2000)​:
+#### C# (2000)​:
 
 ```csharp
 using System;​
@@ -320,7 +320,7 @@ class Program​
 
 ---
 
-##### Go (2009)​:
+#### Go (2009)​:
 
 ```go
 package main​
@@ -334,7 +334,7 @@ func main() {​
 
 ---
 
-##### Swift (2014)​:
+#### Swift (2014)​:
 
 ```swift
 println("Hello World!")
