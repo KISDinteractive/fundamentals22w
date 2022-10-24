@@ -6,4 +6,4 @@
 
 ## Links for the Session
 
-- [Link to the code we stopped with in the last session](src/code1_grid.pde)
+- [Link to the code we stopped with in the last session](src/Code1_grid/Code1_grid.pde)
