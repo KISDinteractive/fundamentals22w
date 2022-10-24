@@ -15,7 +15,7 @@ You are currently at the root of the repository with the "README" file. Every we
 
 - 📚 [**Session 2 – Context & Syntax**](/sessions/Session2_Context_and_Syntax/README.md)
 
-- Session 3 – Advanced Code
+- 💻 [**Session 3 – Advanced Code**](/sessions/Session3_Advanced_Code/README.md)
 
 - Session 4 – Languages, Tools, Outlook
 
