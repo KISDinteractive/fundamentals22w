@@ -24,19 +24,19 @@ Lastly, we looked at the concept of nested loops. How could we generate somethin
 
 **Target:**
 
-<img src="img/nested_loop_task.jpg" alt="nested_loop_task" style="zoom: 25%;" />
+<img src="img/nested_loop_task.jpg" width="50%" alt="a matrix of 12 by 12 circles">
 
 
 
 Using two regular for-loops would only result in a vertical and horizontal array of circles:
 
-<img src="img/two_for_loops.jpg" alt="two_for_loops" style="zoom:50%;" />
+<img src="img/two_for_loops.jpg" width="100%" alt="using two loops results in a vertical and a horizontal line of circle, but no matrix">
 
 
 
 Let's imagine the *matrix* consists of 3 x 3 elements. We could split it up in:
 
-<img src="img/matrix.jpg" alt="matrix" style="zoom: 25%;" />
+<img src="img/matrix.jpg" width="50%" alt="a 3 by 3 matrix showing how to access the circles using their column and row">
 
 We can achieve that by creating **a for-loop for iterating through the columns that is nested inside a for-loop iterating through the rows:**
 
@@ -94,7 +94,7 @@ We can "create" (declare & initalize to be precise) arrays by doing:
 int[] posY = {0,100,200,300,400};
 ```
 
-<img src="img/create_array.jpg" alt="create_array" style="zoom:33%;" />
+<img src="img/create_array.jpg" width="80%" alt="screenshot of array syntax described above">
 
 There are other ways of "creating" arrays, that you can look up in the syntax!
 
@@ -112,7 +112,7 @@ The same way we can (re-)assign values:
 posY[3] = 100;
 ```
 
-<img src="img/use_array.jpg" alt="use_array" style="zoom:33%;" />
+<img src="img/use_array.jpg" width="80%" alt="screenshot of array syntax described above">
 
 
 
