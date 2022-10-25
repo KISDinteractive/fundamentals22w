@@ -163,7 +163,7 @@ In the course we discussed the profile and use of various languages an their his
 
 ---
 
-#### FORTRAN (1955)​: ​
+#### FORTRAN (1955): ​
 
 ```fortran
 program helloworld​  
@@ -284,7 +284,7 @@ class HelloWorldApp {​
 
 ---
 
-#### JavaScript (1995)​:
+#### JavaScript (1995):
 
 ```javascript
 console.log("Hello World!");​
@@ -292,7 +292,7 @@ console.log("Hello World!");​
 
 ---
 
-#### PHP (1995)​:
+#### PHP (1995):
 
 ```php
 <?php echo "Hello World!";
@@ -300,7 +300,7 @@ console.log("Hello World!");​
 
 ---
 
-#### C# (2000)​:
+#### C# (2000):
 
 ```csharp
 using System;​
@@ -316,7 +316,7 @@ class Program​
 
 ---
 
-#### Go (2009)​:
+#### Go (2009):
 
 ```go
 package main​
@@ -330,7 +330,7 @@ func main() {​
 
 ---
 
-#### Swift (2014)​:
+#### Swift (2014):
 
 ```swift
 println("Hello World!")
