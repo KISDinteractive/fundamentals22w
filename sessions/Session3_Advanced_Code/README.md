@@ -24,7 +24,7 @@ Lastly, we looked at the concept of nested loops. How could we generate somethin
 
 **Target:**
 
-<img src="img/nested_loop_task.jpg" alt="nested_loop_task" style="zoom:33%;" />
+<img src="img/nested_loop_task.jpg" alt="nested_loop_task" style="zoom: 25%;" />
 
 
 
@@ -36,7 +36,7 @@ Using two regular for-loops would only result in a vertical and horizontal array
 
 Let's imagine the *matrix* consists of 3 x 3 elements. We could split it up in:
 
-<img src="img/matrix.jpg" alt="matrix" style="zoom: 33%;" />
+<img src="img/matrix.jpg" alt="matrix" style="zoom: 25%;" />
 
 We can achieve that by creating **a for-loop for iterating through the columns that is nested inside a for-loop iterating through the rows:**
 
