@@ -2,7 +2,7 @@
 
 ![A close-up of a Turing Machine](img/Zuse-Z1.jpeg)
 
-***Disclaimer:*** *This repo documents an Interaction Design course held at [KISD](https://kisd.de) in the winter term 2022/23. In the "sessions" section you can find supporting material to the four sessions for consolidation or rework in case of missed meetings. Please keep in mind that the transcript was not written for (scientific) completeness and a reading without participation in the course is of limited value.*
+***Disclaimer:*** *This repo documents an Interaction Design course held at [KISD](https://kisd.de) in the winter term 2022/23. In the "sessions" section you can find supporting material to the four sessions for consolidation or rework in case of missed meetings. Please keep in mind that the transcript was not written for (scientific) completeness and that a reading without participation in the course is of limited value.*
 
 ## Intro
 
