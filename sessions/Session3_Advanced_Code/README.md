@@ -189,16 +189,26 @@ So for exampple, the number '123' or 'onehundred-and-twenty-three' in the decima
 ### The Binary System
 The Binary System is a numeral system with a base of **two**. Thus every digit is only able two represent on of two states: **0** or **1**. The Binary system follows exactly the same inner logic, as all other numeral systems, and was very important for the development of machine based calculation and comptuing. Since every new digit only **doubles** the possible values represented, a number represented in the binary systems takes more digits than the same number represented in decimal. Counting up from 0 to 9 in the Binary System produces the following numbers:
 
-0 -> 0,
-1 -> 1,
-2 -> 10,
-3 -> 11,
-4 -> 100,
-5 -> 101,
-6 -> 110,
-7 -> 111,
-8 -> 1000,
-9 -> 1001,
+0 -> 0
+
+1 -> 1
+
+2 -> 10
+
+3 -> 11
+
+4 -> 100
+
+5 -> 101
+
+6 -> 110
+
+7 -> 111
+
+8 -> 1000
+
+9 -> 1001
+
 
 A digit in binary is refered to as a **Bit** and is the smallest chunk of information in Computer Science, it can only hold a **0** or **1**, respectively an **on** or **off**. 
 Very commonly Bits are organized as groups of 8, which are also called a **Byte**. Holding 8 Bits, a Byte by itself is able to hold values between 0 and 255. Thus, the Example from before '123' can be represented as **01111011**
