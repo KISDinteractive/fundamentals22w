@@ -173,7 +173,7 @@ void draw() {
 ## 3.2 Binary Numbers
 ### Understanding the Numeral Systems
 The Decimal System, used by most modern civilizations to represent numbers and do math with them, is just one of an infinite amout of numeral systems, which all follow the same internal logic, and most naturally can be explained thorugh the Decimal System:
-- Numeral Systems have a **base**, which represent the amout of tokens (or states) a digit is allow to have. _In Decimal there are **ten** tokens: 0, 1, 2, ,3 ,4 ,5, 6, 7, 8, 9_
+- Numeral Systems have a **base**, which represent the amout of tokens (or states) a digit is able to hold. _In Decimal there are **ten** tokens: 0, 1, 2, ,3 ,4 ,5, 6, 7, 8, 9_
 - Counting up works by iterating through the tokens _( 0 -> 1 -> 2 -> 3 ... )_ until the last token is reached _(9)_
 - In order to count higher than the token with the highest value, two things have to happen:
   - the current digit is reset to Zero
