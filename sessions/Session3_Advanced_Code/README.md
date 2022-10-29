@@ -231,15 +231,63 @@ The Jacquard Loom:
 - The punchcards were used in a mechanical lever mechanism 
 - Depending on the presence or absence of a hole at the contact point between levers and punchcard, the levers pulled only the right strings for a specific pattern
 - Thus punchcards held binary information, represented as the presence or absence of holes
-- The punchcards of the Jacquard Loom are often referred to as the first implementation of _software_, because in contrast to the loom itself, they were relatively easy to manipulate. In consequence, the same loom was able to weave multiple pattern just by changing the punchcards.
+- The punchcards of the Jacquard Loom are often referred to as the first implementation of _software_, because in contrast to the loom itself, they were relatively easy to manipulate. In consequence, the same loom was able to weave multiple patterns just by changing the punchcards.
+
+The Hollerith Tabulating Machine​
+- Hermann Hollerith
+- Patented in 1889
+- Tabulating machines were used to read out information coded onto punchcards
+- The readout utilized electricity and two hinged plates controlled by a lever
+- When the lever was actuated and the punchcard was between the plates, spring-loaded needles were passing through the holes and closed an electric circuit.
+- If there were no holes at the contact points, the electric circuit wouldn't close
+- The contacts which were activated by a needle, drove forward the counting hands of a multitude of dials that could be evaluated by humans
+- Again the presence or absence of holes in the punchcard held binary data controlling the machine
+
+Early Tabulating Machines weren't computers though, they were only able to read and write information from and to punchcards. Over the decades the ability for simple calculations was added, until tabulating and calculation machines became programmable general purpose computers.
+
+Punchcards remained a primary medium for input and output until the 80s. The biggest computer program every deployed on punchcards was running SAGE, the first real-time and network-based air-defense-system. It was written on 62500 punchcards worth of ~ 5MB of data.
+
+## 3.5 Functions
+
+<img src=img/photoshop.png width=80% >
+
+Software sometimes consists of millions lines of code​ and is written and maintained by many people. Thus it has to be organized. This is why software usually is divided into modules, which communicate with each other through defined interfaces. These modules should be ideally as self-contained as possible, indepented and their interfaces should be of course compatible.  
+
+​For now, the primary technqiue for organizing code will be **functions**, which (when done right) make code more organized, modular and reusable.
+
+Functions are a layer of abstraction. As variables are an abstraction for values, functions are an abstrctions for behavior. As with built-in variables, in Processing there are a lot of built-in functions, which already were used during the course, like:
+
+```processing
+void setup() {...}
+void draw() {...}
+circle(posX,posY,50);
+rect(mouseX,mouseY,100,100);
+```
+Analog to variables, in order to utilize own functions, they have to be defined first:
+
+<img src=img/ownfunctions.png width=80% >
+
+​
+Regarding the code for one falling blob, one way to utilize functions would be to "outsource" the following two lines: 
+
+```processing
+background(255);
+fill(0);
+```
+
+<img src=img/ownfunction2.png width=80% >
 
 
+<img src=img/ownfunction3.png width=80% >
 
-## 3.4 Modern Computers
+It is also possible to define parameters for own functions, in order to interact and manipulate the values  inside the function when the function is called.
 
-## 3.5 Functions and Classes
+<img src=img/ownfunction4.png width=80% >
+
+### Task: Recreate the rect() function of processing with an own function, which draws a rectangle with 4 lines.
 
 
+**Example Solution**: [Code File](https://github.com/KISDinteractive/fundamentals22w/tree/main/sessions/Session3_Advanced_Code/src/Code5_myRect)
 
 **Special:** you could also solve the Task by using point() only. The result would look [like this (code file)](src/Code_5_myRect_alternativeVersionUsingPoints/Code_5_myRect_alternativeVersionUsingPoints.pde).
 
