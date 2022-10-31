@@ -1,4 +1,6 @@
 int posY = 50;     //starting position of blobs
+
+int posX= 150;
 int speed = 3;     //speed of the blobs
 
 void setup() {
@@ -15,7 +17,7 @@ void draw() {
   posY = posY + speed;
 
   //draw current (i) circle with corresponding posY
-  circle (150, posY, 50);
+  circle (posX, posY, 50);
 
   //set back at the end of the screen
   if (posY > height) {
