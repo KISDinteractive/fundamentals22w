@@ -17,7 +17,7 @@ You are currently at the root of the repository with the "README" file. Every we
 
 - 💻 [**Session 3 – Advanced Code**](/sessions/Session3_Advanced_Code/README.md)
 
-- 🛠️ [** Session 4 – Application & other languages**] (/sessions/Session4_Application_and_Other_Languages/README.md)
+- 🛠️ [**Session 4 – Application & other languages**](/sessions/Session4_Application_and_Other_Languages/README.md)
 
 ## The Course
 
