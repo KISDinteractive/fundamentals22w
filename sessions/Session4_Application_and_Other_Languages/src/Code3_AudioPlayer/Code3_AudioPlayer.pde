@@ -1,16 +1,13 @@
 // This is a simple sound file player. Use mouse position to control speed & amplitude 
 import processing.sound.*;
-
 SoundFile soundfile;
 
 void setup() {
   size(640, 360);
   background(255);
-
   soundfile = new SoundFile(this, "vibraphon.aiff"); // Load a soundfile
   soundfile.loop();  // Play the file in a loop
 }      
-
 
 void draw() {
   // Map mouseX from 0.25 to 4.0 for playback rate. 1 equals original playback speed,
