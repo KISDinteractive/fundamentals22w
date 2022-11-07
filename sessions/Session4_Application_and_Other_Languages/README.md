@@ -2,26 +2,32 @@
 
 ***Disclaimer:*** *This page offers supporting material for an Interaction Design course held at [KISD](https://kisd.de) in the winter term 2022/23. Visit the [landing page](https://github.com/KISDinteractive/fundamentals22w) of this course for more information.*
 
-
-
 ## 4.1 Application: Creature 2.0
 
 In the first 90 minutes of session 4, we applied what we had learned so far: the participants were asked to animate their creatures from the first session or make them interactive to practice using code.
 
+|                                                                   |                                                                   |                                                                  |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `<img src="img/exercise/exercise_creature_1.gif" width="80%">`  | `<img src="img/exercise/exercise_creature_2.gif" width="60%">`  | `<img src="img/exercise/exercise_creature_3.gif" width="80%">` |
+| `<img src="img/exercise/exercise_creature_4.gif" width="100%">` | `<img src="img/exercise/exercise_creature_5.gif" width="80%">`  | `<img src="img/exercise/exercise_creature_6.gif" width="80%">` |
+| `<img src="img/exercise/exercise_creature_7.gif" width="80%">`  | `<img src="img/exercise/exercise_creature_8.gif" width="80%">`  | `<img src="img/exercise/exercise_creature_9.gif" width="80%">` |
+| `<img src="img/exercise/exercise_creature_10.gif" width="80%">` | `<img src="img/exercise/exercise_creature_11.gif" width="80%">` |                                                                  |
 
+## 4.2 Classes & Objects
 
-|      |      |      |
-| ---- | ---- | ---- |
-|<img src="img/exercise/exercise_creature_1.gif" width="80%"> | <img src="img/exercise/exercise_creature_2.gif" width="60%"> | <img src="img/exercise/exercise_creature_3.gif" width="80%">|
-| <img src="img/exercise/exercise_creature_4.gif" width="100%"> | <img src="img/exercise/exercise_creature_5.gif" width="80%"> | <img src="img/exercise/exercise_creature_6.gif" width="80%">|
-| <img src="img/exercise/exercise_creature_7.gif" width="80%"> | <img src="img/exercise/exercise_creature_8.gif" width="80%"> | <img src="img/exercise/exercise_creature_9.gif" width="80%">|
-|<img src="img/exercise/exercise_creature_10.gif" width="80%"> | <img src="img/exercise/exercise_creature_11.gif" width="80%"> |    |
+Classes and Objects are a more advanced way to organize code and are the base of a programming paradigm called **Object-Oriented-Programming** (or short OOP).  There, programmers use Objects in order to structure code and recreate models of systems they want to depict. Objects themselves, are structures that are as **encapsulated**** as possible, to avoid unwanted interference with other variables, functions or other objects.
 
-## 4.3 IDEs (Integrated Develeopment Environments)
+We already got to know **Variables** that have a datatype and contain data, and **Functions**, containing behavior. Classes and Objects are **complex data structures.** They are their own datatype and can hold Variables AND Behavior. Variables that belong to objects are called **Attributes,** while functions belonging to objects are called **Methods.**
+
+Classes and Objects belong together. **Classes** are the definition of the structure and are like a blueprint for the created objects. A good metaphor is a Cookie-Cutter. **Objects** on the other hand are the instances of classes, which have to be specifically created following the blueprint - the cookies themselves.
+
+Classes and Objects are in many programming languages the main drivers of extensions of functionality. They usually are packed in Libraries, which users can install and include in their programming sketches. If a user wants to refer to a certain class in order to create a certain object, the corresponding Library has to be installed and included, otherwise the programming-language doesn't "know" the class and is unable to create an instance of it. In Processing, there is a easy  to use Library manager under *Sketch -> Include Library -> Manage Libraries*
+
+## 4.3 IDEs (Integrated Development Environments)
 
 ### From Source Code to Executables: IDEs
 
-In this course so far we have only 
+In this course so far we have only
 
 - opened certain software
 - written code
@@ -37,24 +43,22 @@ All these **source code files** need to be **written and edited, tested and debu
 
 ![src_to_app](img/src_to_app.jpg)
 
-
-
 ### Some of the Most Important IDEs
 
 We **will or have used the bold** ones in this course
 
 #### Local and universal
+
 - **VSCode** **/** VSCodium
-- Eclipse 
+- Eclipse
 - NetBeans
 - IntelliJ IDEA
 - Sublime Text 3
 - (Atom) discontinued!
 - Xcode
 
-
-
 #### For Browsers / Online
+
 - **Jupyter** **Labs / Notebook**
 - CodeTasty
 - CodeSandbox
@@ -65,16 +69,12 @@ We **will or have used the bold** ones in this course
 - Codevny (Python)
 - *Many more **mini-IDEs** for specific languages on the internet!*
 
-
-
 #### Specific Language/Use
 
 - **Processing** (Processing)
 - **Arduino** (Arduino)
 - Thonny (Python)
 - RStudio (R language)
-
-
 
 ## 4.4 Transfer to Python
 
@@ -131,7 +131,7 @@ type(myNumber) # → ah it's a int!
 
 Recently Python got very famous for data science and machine learning. For this purpose it is often used in so-called **Jupyter Notebooks**. First released in 2014, these "notebooks" are developed by **Project Jupyter** (non-profit organization) and are open source. "Notebooks" are code documents, but with some special features and embedded in a special workflow:
 
-- Mostly used in **JupyterLabs** IDE 
+- Mostly used in **JupyterLabs** IDE
   - Running in the Browser
   - Often on remote servers (services)
   - Notebooks are easily transferable, since the prerequisites are often already pre-installed on the servers
@@ -163,7 +163,7 @@ First we discovered the interface of Jupyter – then tested some code from the 
 
 #### Example 1 – plotting a parable
 
-Showing a plot of a squared parable is pretty straight forward in python (would be more difficult in processing). Just upload the [Jupyter Notebook file](src/Python_Intro/JupyterNotebookIntro.ipynb) to your JupyterLab instance 
+Showing a plot of a squared parable is pretty straight forward in python (would be more difficult in processing). Just upload the [Jupyter Notebook file](src/Python_Intro/JupyterNotebookIntro.ipynb) to your JupyterLab instance
 
 ```python
 from matplotlib import pyplot as plt
