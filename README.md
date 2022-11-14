@@ -25,7 +25,7 @@ You are currently at the root of the repository with the "README" file. Every we
 
 ## The Course
 
-This course will take place in the winter semester of 2022/23 at the [Köln International School of Design](https://kisd.de) in Cologne, Germany. The description reads:
+This course took in the winter semester of 2022/23 at the [Köln International School of Design](https://kisd.de) in Cologne, Germany. The description reads:
 
 <details>
 <summary style="font-size:14px"><b>View Course Description</b></summary>
@@ -39,7 +39,7 @@ No previous knowledge is required for participation. Directly after the course, 
 
 ## Why this repo?
 
-We will post the slides, content and code of the sessions here as soon as we finish them. This way you can follow the content if you ever can't attend, or want to rework or copy the code at home.
+We posted the content and code of the sessions here, but not the slides due to copyright reasons. This way you can follow the content if you ever can't attend, or want to rework or copy the code at home.
 
 ## Authors
 
