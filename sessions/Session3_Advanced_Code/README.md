@@ -6,13 +6,13 @@
 
 - [We started this session with the code of the previous one](src/Code1_grid/Code1_grid.pde)
 
-## 2.5 Closing of Previous Loops-Session
+## 2.5 Closing the Previous Loops-Session
 
-We didn't close the previous session about loops, so here you go:
+We didn't finish the previous session on loops, so here we go:
 
 ### for-loop vs. while loop
 
-We've learned how to use the for-loop. There is a second type of loop, the **while-loop**, that doesbasically the same thing. Here are some differences and the implementation:
+We've learnt how to use the for-loop. There is a second type of loop, the **while-loop**, which does basically the same thing. Here are some differences and the implementation:
 
 ![while-loop](img/while-loop.jpg)
 
@@ -20,7 +20,7 @@ We've learned how to use the for-loop. There is a second type of loop, the **whi
 
 ### Nested Loops
 
-Lastly, we looked at the concept of nested loops. How could we generate something like this (called a "matrix" of circles)?
+Finally, we looked at the concept of nested loops. How could we create something like this (called a "matrix" of circles)?
 
 **Target:**
 
@@ -38,13 +38,13 @@ Let's imagine the *matrix* consists of 3 x 3 elements. We could split it up in:
 
 <img src="img/matrix.png" width="100%" alt="a 3 by 3 matrix showing how to access the circles using their column and row">
 
-We can achieve that by creating **a for-loop for iterating through the columns that is nested inside a for-loop iterating through the rows:**
+We can achieve this by creating **a for-loop to iterate through the columns, nested inside a for-loop to iterate through the rows:**
 
 ![nested_loop_code](img/nested_loop_code.jpg)
 
 
 
-So the final code for nested loops goes like this ([link to code file](src/Code2_NestedLoops/Code2_NestedLoops.pde)):
+So the final code for nested loops looks like this ([link to code file](src/Code2_NestedLoops/Code2_NestedLoops.pde)):
 
 ```processing
 int interval= 60; //how much space (in pixels) between lines?
@@ -70,9 +70,9 @@ void draw() {
 
 ## 3.1 Arrays
 
-Arrays are in general arrangements / sequences of things
+Arrays are, in general, arrangements / sequences of things
 
-You can think of them as a freight train of shipping containers, as we used to think of them when we learned that variables are a container that holds data of a certain type. Arrays and our metaphoric trian have much in common:
+You can think of them as a freight train of shipping containers, as we used to think of them when we learned that variables are a container that holds data of a certain type. Arrays and our metaphorical trian have a lot in common:
 
 - The **train** has **many wagons**** of the **same type** (e.g. shipping container) in a **fixed order.**
 
@@ -80,7 +80,7 @@ You can think of them as a freight train of shipping containers, as we used to t
 
 
 
-Before we had to name each variable with a unique name. In an array we can access/manipulate them by using the **array name** and their **position (called "index")** in the array:
+Previously we had to give each variable a unique name. In an array we can access/manipulate them by using the **array name** and their **position (called "index")** in the array:
 
 ![array_train_metaphor](img/array_train_metaphor.jpg)
 
@@ -98,15 +98,15 @@ int[] posY = {0,100,200,300,400};
 
 There are other ways of "creating" arrays, that you can look up in the syntax!
 
-### "Use" Arrays
+### "Using" Arrays
 
-We can "use" (call & assign to be precise) arrays in a similar way than variables. Call the 4th element of an array for instance (array always start to count at 0, so the 4th element is index number 3):
+We can "use" (call & assign to be precise) arrays in a similar way to variables. For example, call the 4th element of an array (arrays always start counting from 0, so the 4th element has index 3):
 
 ```processing
 if (posY[3]>whatever){ ...
 ```
 
-The same way we can (re-)assign values:
+n thhe same way we can (re)assign values:
 
 ```processing
 posY[3] = 100;
@@ -118,15 +118,15 @@ posY[3] = 100;
 
 ### Multidimensional Arrays
 
-With the train metaphor we learned a so-called one dimensional array, as it stores only a single row of elements.
+With the train metaphor we learned about a so-called one dimensional array, because it stores only a single row of elements.
 
 There can also be 
 
-- two dimensional arrays (imagine a train with two floors of containers
-- three dimensional arrays (Imagine a container ship that stores containers not only one behind the other and on top of each other, but also side by side)
+- two-dimensional arrays (imagine a train with two floors of containers
+- three dimensional arrays (imagine a container ship that stores containers not only one behind the other and one on top of the other, but also side by side)
 - arrays with more than three dimensions (difficult to imagine, used in higher level concepts and in math)
 
-An examplary assignment using a 2D array would look like this: 
+An example application using a 2D array would look like this: 
 
 ```processing
 posY[1][3] = 100;
@@ -172,22 +172,22 @@ void draw() {
 
 ## 3.2 Binary Numbers
 ### Understanding the Numeral Systems
-The Decimal System, used by most modern civilizations to represent numbers and do math with them, is just one of an infinite amount of numeral systems, which all follow the same internal logic, and most naturally can be explained through the Decimal System:
-- Numeral Systems have a **base, which represents the number of tokens (or states) a digit is able to hold. _In Decimal there are **ten** tokens: 0, 1, 2, ,3 ,4 ,5, 6, 7, 8, 9_
+The decimal system, used by most modern civilisations to represent numbers and do mathematics with them, is just one of an infinite number of number systems, all of which follow the same internal logic and can most naturally be explained using the decimal system:
+- Numeral systems have a **base, which represents the number of tokens (or states) that a digit can hold. _In decimal there are ten tokens: 0, 1, 2, ,3 ,4 ,5, 6, 7, 8, 9_.
 - Counting up works by iterating through the tokens _( 0 -> 1 -> 2 -> 3 ... )_ until the last token is reached _(9)_
-- In order to count higher than the token with the highest value, two things have to happen:
-  - the current digit is reset to Zero
-  - at the same time, either a new digit is introduced to the left - or an already existing digit on the left is incremented by one
-- Following this logic, every new digit introduced extends the possible values represented by the factor of the base ( = amount of tokens). _In Decimal this means, every new digit **tenfolds** the possible values represented by the numeral system_
-- As a consequence, counting from the right, the value of every is multiplied with incremental exponents of the base, starting with one. _In Decimal this means, the value of the digit _on the _farthest_ right is_ multiplied by 1, the digit left of that is multiplied by 10, the digit to the left of that is multiplied by 100 etc._
+- In order to count higher than the token with the highest value, two things must happen:
+  - the current number is reset to zero
+    - At the same time, either a new digit is introduced on the left - or an existing digit on the left is incremented by one.
+- Following this logic, each new digit introduced extends the possible values represented by the factor of the base ( = number of tokens). In decimal, this means that each new digit **increases tenfold** the possible values represented by the number system.
+- Consequently, counting from the right, the value of each is multiplied by increasing exponents of the base, starting with one. In decimal, this means that the value of the digit _farthest_ to the right is multiplied by 1, the digit to the left by 10, the digit to the left by 100, and so on.
 
-So for exampple, the number '123' or 'onehundred-and-twenty-three' in the decimal system is represented as 1 * 100 + 2 * 10 + 3 * 1
+For exampple, the number '123' or 'one hundred and twenty three' in the decimal system is represented as 1 * 100 + 2 * 10 + 3 * 1
 
 <img src="img/decimal.png" width="90%">
 
 
 ### The Binary System
-The Binary System is a numeral system with a base of **two**. Thus every digit is only able two represent one of two states: **0** or **1**. The Binary system follows exactly the same inner logic, as all other numeral systems, and was very important for the development of machine-based calculation and computing. Since every new digit only **doubles** the possible values represented, a number represented in the binary systems takes more digits than the same number represented in decimal. Counting up from 0 to 9 in the Binary System produces the following numbers:
+The binary system is a number system based on **two**. This means that each digit can only represent one of two states: **0** or **1**. The binary system follows exactly the same internal logic as all other number systems, and was very important in the development of machine-based calculation and computing. Since each new digit only **doubles** the possible values represented, a number represented in the binary systems requires more digits than the same number represented in decimal systems. Counting up from 0 to 9 in the binary system produces the following numbers:
 
 0 -> 0
 
@@ -209,53 +209,52 @@ The Binary System is a numeral system with a base of **two**. Thus every digit i
 
 9 -> 1001
 
-
-A digit in binary is referred to as a **Bit** and is the smallest chunk of information in Computer Science, it can only hold a **0** or **1**, respectively **on** or **off**. 
-Very commonly Bits are organized as groups of 8, which are also called **Byte**. Holding 8 Bits, a Byte by itself is able to hold values between 0 and 255. Thus, the Example from before '123' can be represented as **01111011**
+A digit in binary is called a **bit** and is the smallest chunk of information incomputer science, it can only hold a **0** or **1**, respectively **on** or **off**. 
+Very often bits are organised as groups of 8, which are also called **bytes**. Since a byte contains 8 bits, it can hold values between 0 and 255. So the '123' example above can be represented as **01111011**.
 
 <img src="img/binary123.png" width="80%" >
 
-There were reasons, why early and present computation is utilizing binary numbers under the hood. 
-- It is possible to perform normal mathematical operations in binary because the inner logic of numeral systems persists. This means math still works as normal.
+There were reasons why early and modern computing used binary numbers under the hood. 
 
-- There is a field of mathematics called _Boolean Algebra_, which is specialized to formalize logical statements as binary **true** or **false** expressions. It is relatively easy to represent and to read out only two states, much easier than to differentiate 10 nuances of a state for a direct projection of the decimal system. This 'robustness' made it possible to represent and read out binary information through many technologies like punchcards, relays, vacuum tubes and transistors - it is just necessary to differentiate between 2 states, 1/0, on/off, present/missing, high/low.  
+- It is possible to perform normal mathematical operations in binary because the inner logic of the numeral systems is preserved. This means that mathematics still works normally.
+- There is a branch of mathematics called _Boolean Algebra_ which specialises in formalising logical statements as binary **true** or **false** expressions. It is relatively easy to represent and read only two states, much easier than differentiating 10 nuances of a state for a direct projection of the decimal system. This 'robustness' has made it possible to represent and read binary information through many technologies such as punch cards, relays, vacuum tubes and transistors - it is only necessary to distinguish between 2 states, 1/0, on/off, present/absent, high/low.
 
 ## 3.3 Binary Data & Machines (and Punchcards)
-Some noticeable milestones in the history of binary machines were:
+Some notable milestones in the history of binary machines were:
 
 The Jacquard Loom:
 - Joseph Marie Jacquard
 - Patented in 1801
-- Looms utilized punchcards to automate the creation of patterned weaves in textiles
-- The patterns were translated into patterns of holes on cardboard cards -> punchcards
-- The punchcards were used in a mechanical lever mechanism 
-- Depending on the presence or absence of a hole at the contact point between levers and punchcard, the levers pulled only the right strings for a specific pattern
-- Thus punchcards held binary information, represented as the presence or absence of holes
-- The punchcards of the Jacquard Loom are often referred to as the first implementation of _software_, because in contrast to the loom itself, they were relatively easy to manipulate. In consequence, the same loom was able to weave multiple patterns just by changing the punchcards.
+- Looms used punch cards to automate the creation of patterned weaves in textiles
+- The patterns were translated into patterns of holes on cardboard cards → punch cards
+- The punch cards were used in a mechanical lever mechanism.
+- Depending on the presence or absence of a hole at the point of contact between the levers and the punch card, the levers pulled only the right strings for a particular pattern.
+- Punch cards thus contained binary information, represented by the presence or absence of holes.
+- The punch cards of the Jacquard loom are often referred to as the first implementation of _software_ because, unlike the loom itself, they were relatively easy to manipulate. As a result, the same loom could weave multiple patterns simply by changing the punch cards.
 
 The Hollerith Tabulating Machine​
 - Hermann Hollerith
 - Patented in 1889
-- Tabulating machines were used to read out information coded onto punchcards
-- The readout utilized electricity and two hinged plates controlled by a lever
-- When the lever was actuated and the punchcard was between the plates, spring-loaded needles were passing through the holes and closed an electric circuit.
-- If there were no holes at the contact points, the electric circuit wouldn't close
-- The contacts which were activated by a needle, drove forward the counting hands of a multitude of dials that could be evaluated by humans
-- Again the presence or absence of holes in the punchcard held binary data controlling the machine
+- Tabulating machines were used to read out information encoded on punched cards.
+- It used electricity and two hinged plates controlled by a lever.
+- When the lever was operated and the punch card was between the plates, spring-loaded needles were passed through the holes and closed an electric circuit.
+- If there were no holes at the contact points, the electric circuit wouldn't close.
+- The contacts which were activated by a needle, drove forward the counting hands of a variety of dials that could be interpreted by humans.
+- Again the presence or absence of holes in the punch card held binary data that controlled the machine
 
-Early Tabulating Machines weren't computers though, they were only able to read and write information from and to punchcards. Over the decades the ability for simple calculations was added, until tabulating and calculation machines became programmable general purpose computers.
+However, early tabulating machines weren't computers, they could only read and write information to and from punched cards. Over the decades, the ability to perform simple calculations was added, until tabulators and calculators became programmable general-purpose computers.
 
-Punchcards remained a primary medium for input and output until the 80s. The biggest computer program every deployed on punchcards was running SAGE, the first real-time and network-based air-defense-system. It was written on 62500 punchcards worth of ~ 5MB of data.
+Punch cards remained a primary input and output medium until the 1980s. The largest computer program ever run on punched cards was SAGE, the first real-time, networked air defence system. It was written on 62500 punched cards containing ~5MB of data.
 
 ## 3.5 Functions
 
 <img src=img/photoshop.png width=80% >
 
-Software sometimes consists of millions lines of code​ and is written and maintained by many people. Thus it has to be organized. This is why software usually is divided into modules, which communicate with each other through defined interfaces. These modules should be ideally as self-contained as possible, indepented and their interfaces should be of course compatible.  
+Software can contain millions of lines of code and is written and maintained by many people. So it needs to be organised. For this reason, software is usually divided into modules that communicate with each other via defined interfaces. These modules should ideally be as self-contained and independent as possible, and their interfaces should of course be compatible.  
 
-​For now, the primary technqiue for organizing code will be **functions**, which (when done right) make code more organized, modular and reusable.
+For now, the primary technique for organising code will be **functions**, which (if done right) make code more organised, modular and reusable.
 
-Functions are a layer of abstraction. As variables are an abstraction for values, functions are an abstrctions for behavior. As with built-in variables, in Processing there are a lot of built-in functions, which already were used during the course, like:
+Functions are an abstraction layer. Just as variables are an abstraction for values, functions are an abstraction for behaviour. As with built-in variables, there are a lot of built-in functions in Processing that you will have used throughout the course, such as:
 
 ```processing
 void setup() {...}
@@ -267,7 +266,7 @@ Analog to variables, in order to utilize own functions, they have to be defined 
 
 <img src=img/ownfunctions.png width=80% >
 
-​
+
 Regarding the code for one falling blob, one way to utilize functions would be to "outsource" the following two lines: 
 
 ```processing
@@ -280,14 +279,13 @@ fill(0);
 
 <img src=img/ownfunction3.png width=80% >
 
-It is also possible to define parameters for own functions, in order to interact and manipulate the values  inside the function when the function is called.
+It is also possible to define parameters for custom functions to interact and manipulate the values within the function when it is called.
 
 <img src=img/ownfunction4.png width=80% >
 
 ### Task: Recreate the rect() function of processing with an own function, which draws a rectangle with 4 lines.
 
-
 **Example Solution**: [Code File](https://github.com/KISDinteractive/fundamentals22w/tree/main/sessions/Session3_Advanced_Code/src/Code5_myRect)
 
-**Special:** you could also solve the Task by using point() only. The result would look [like this (code file)](src/Code_5_myRect_alternativeVersionUsingPoints/Code_5_myRect_alternativeVersionUsingPoints.pde).
+**Special:** You could also solve the Task by using point() only. The result would look [like this (code file)](src/Code_5_myRect_alternativeVersionUsingPoints/Code_5_myRect_alternativeVersionUsingPoints.pde).
 

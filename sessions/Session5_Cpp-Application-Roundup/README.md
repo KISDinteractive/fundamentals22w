@@ -10,14 +10,14 @@
 
 ## 5.2 Transfer to C++
 
-Last Language we learned was C++. This is a short roundup of its context:
+The last language we learned was C++. This is a brief summary of its context:
 
 - Enhancement / Extension of C
-- published 1985 by Bjarne Stroustrup 
-- Further expanded until today
+- published in 1985 by Bjarne Stroustrup 
+- Extended until today
   - Language revisions: C++98, C++03, C++11, C++14, C++17, C++20, C++23
-  - So-called "C with Classes"
-  - Today: modern language including object orientation
+  - So-called "C with classes"
+  - Today: Modern language with object orientation
 
 
 
@@ -27,22 +27,22 @@ C++ is a compiled language. Setting up all the tools and the workspace takes a l
 
 ### Hello World in C++
 
-We first took a look into the basic components of a Hello World! programm in C++:
+We started by looking at the basic components of a Hello World! program in C++:
 
-- include libraries by using `#include <LIBRARY-NAME>`
+- Include libraries by using `#include <LIBRARY-NAME>`
 
-- with `using namespace std;` we allow all functions from the std (standard) namespace to be called directly
+- With `using namespace std;` we allow all functions from the std (standard) namespace to be called directly
 
-- the `main` function is special: 
-  - runs only once (start and end of programm)
+- The `main` function is special: 
+  - runs only once (at the start and end of the program)
   - looping needs to be done by hand
   - is an `int` function (usually expects an int to be returned), but return is not mandatory
   
 - Printing stuff to the console is done by `cout << "some text";`. 
   
-  - different to most other languages. 
+  - which is different from most other languages. 
   - `cout` part of the `iostream` library.   
-  - used by writing the text in `" "` on the right side of `cout` and then adding a `<<` arrow-ish thing between them
+  - is used by putting the text in `" "` on the right side of `cout` and then adding a `<<` arrow-like thing in between them.
   
   
   
@@ -62,9 +62,9 @@ int main(){
 
 ### Looping and Breaking Loops
 
-We then learned how we create a never-ending loop (similar to draw() in Processing) by using `while (1){ }`.
+We then learned how to create an infinite loop (similar to draw() in Processing) by using `while (1){ }`.
 
-All loops can be ended by using the `break;` instruction. We do that whenever the input from the console (`cin >> x;`) is a 0. 
+All loops can be broken using the `break;` command. We do that whenever the input from the console (`cin >> x;`) is a 0. 
 
 [See Code file or:](src/cpp/Code3_BreakLoops.cpp)
 
@@ -93,9 +93,9 @@ int main ()
 
 ### Task: a Timer App that Show Remaining Time
 
-The participants then had the task to code an app themselves. The app should count down from a user-inputted number to zero while printing the remaining seconds to the console.
+Participants were then given the task of coding an app themselves. The app should count down from a user-defined number to zero and print the remaining seconds to the console.
 
-Solution ([also see Code file](src/cpp/Code4_Timer-TaskSolution.cpp)):
+Solution ([see also code file](src/cpp/Code4_Timer-TaskSolution.cpp)):
 
 ```cpp
 #include <iostream>

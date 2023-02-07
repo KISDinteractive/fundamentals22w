@@ -4,51 +4,48 @@
 
 
 
-### Links Used during the Session
+### Links Used During the Session
 
-- [Open the p5.js editor](https://editor.p5js.org)
+- Open the p5.js editor](https://editor.p5js.org)
 
-- [Check some examples directly in p5.js](https://editor.p5js.org/KISDinteractive/sketches)
+- Check out some examples directly in p5.js](https://editor.p5js.org/KISDinteractive/sketches)
 
 ## Session Content
 
 ### Formalities
 
-- 5 Meetings (10.10. – 07.11.22) on Mondays from 10–12 & 13–16 o'clock
+- 5 meetings (10.10. - 07.11.22) on Mondays from 10-12 & 13-16 o'clock
 
-- We agreed on a punctuality tolerance of 10 mins.
+- We agreed on a punctuality tolerance of 10 minutes.
 
-- 3 Coffee Breaks of 15 mins – please be back on time
-
-## 
+- 3 coffee breaks of 15 mins - please be back on time
 
 ### Kitchen Metaphor
 
-- We proposed a metaphor that compares coding with a cook in a kitchen. The cook, however, has no human qualities (e.g. intelligence, commons sense, ...) but is a "stupid" machine that can only execute commands and do calculations:
-  
+- We proposed a metaphor comparing coding to a cook in a kitchen. The cook has no human qualities (e.g. intelligence, common sense, ...) but is a " stupid" machine that can only execute commands and do calculations:
+
   - Kitchen = **Computer**​
-  
+
+
   - Cook = **Processor**
 
-- In the kitchen there already is some kind of instruction manual, that documents how to use the kitchen. In code this *book* is called **operating systems** (e.g. Windows or macos) and is already placed in the *kitchen*.
+- In the kitchen there is already a some kind of instruction manual, that documents how to use the kitchen. In code this *book* is called **operating systems** (e.g. Windows or MacOs) and is already placed in the *kitchen*.
 
-- In addition, there are numerous books on the shelf ( referred to as **Reference** or **Syntax** in code) that document how to use various programming languages, much like a dictionary would document the use of a spoken or written language.
+- In addition, there are many books on the shelf (called **Reference** or **Syntax** in code) that document how to use various programming languages, much as a dictionary would document the use of a spoken or written language.
 
-- To get a meal from the cook, we need to instruct the cook to do all the individual cooking steps - in the code, these steps are called **instructions**.
+- To get a meal from the cook, we need to tell the cook how to do each cooking step - in code these steps are called **instructions**.
 
-- As we might want the same food again at a later point in time, we write all instructions down in a recipe. Something you would refer to as a **sketch**: a document that represents all the steps of the desired process.​
+- Because we may want the same food again at a later time, we write all the instructions down in a recipe. Something you would call a **sketch**: a document that represents all the steps of the desired process.
 
-- Some of the task in cooking are repetitive and occur repeatedly in different recipes. These sets of instructions that form a task are called **functions** in code and can be used over and over again. In the kitchen metaphor imagine them beeing a further "beginners cooking book" in the shelf. If you want you can write your own functions!
-
-## 
+- Some of the tasks in cooking are repetitive and occur again and again in different recipes. These sets of instructions that make up a task are called **functions** in code and can be used over and over again. In the kitchen metaphor, think of them as another "beginner's cookbook" on the shelf. If you like, you can write your own functions!
 
 ### 1st Exercise in p5js: Drawing rects
 
-**Task:** draw a blue rectangle with a white outline on black background.
+**Task:** Draw a blue rectangle with a white outline on black background.
 
 **Sample Solution:** [link to code file](src/task1-rectangle.js)
 
-**Comments:**
+**Notes:**
 
 - Code in the **setup() function** is only called once, while the **draw() function** is repeated over and over again until the sketch gets stopped
 
@@ -64,67 +61,60 @@
 
 - `rect(50, 50, 200, 100);` creates a rectangle at the position x=50 and y=50 (from the upper left canvas edge) with a size of 200 pixels to 100 pixels (landscape).
 
-- putting `fill(0,0,255);` *before* our rect will cause it to be filled blue. Here the **color** is set by defining the red, green and blue (rgb) value between 0-255.
+- Putting `fill(0,0,255);` *before* our rect will cause it to be filled blue. Here the **color** is set by defining the red, green and blue (rgb) value between 0-255.
 
-- putting `stroke(255);` *before* our rect will cause it to have a white outline. Here the **color** is set by defining a greyscale value (0-255). One could also use rgb like above.
+- Putting `stroke(255);` *before* our rect will cause it to have a white outline. Here the **color** is set by defining a greyscale value (0-255). One could also use rgb like above.
 
 <img src="img/rect-instruction.jpg" width="80%" alt="The rect() instruction">
 
 <img src="img/color-instructions.jpg" width="80%" alt="The stroke() and fill() instructions">
 
-## 
+### 2nd Exercise (Individual Task): Adding Objects
 
-### 2nd Exercise (individual task): Add Objects
+- **Task:** Add a red rectangle with green outline and a circle of any colour that is in one of the rectangles.
 
-- **Task:** add a red rectangle with green outline and a circle of any color that resides in one of the rects.
-
-- **Student's Outcomes**: [link to folder](students-outcomes/task2-circle).
+- **Students' Outcomes**: [link to folder](students-outcomes/task2-circle).
 
 <img src="students-outcomes/task2-circle/task2-circle-overview.jpg" width="70%" height="70%" alt="Student's Outcome of the second task">
 
-- **Sample Solution:** you can find *one* possible solution in [this code file](src/task2-circle.js).
+- **Sample solution:** you can find *one* possible solution in [this code file](src/task2-circle.js).
 
-- **Comments:** the solution can by achieved by repeating the 1st task for another rectangle and then add a circle ( `circle(150,100,70);`). Note that `fill()`and `stroke()`apply for **all** of the following shapes until you 
-  
+- **Notes:** The solution can be achieved by repeating the 1st task for another rectangle and then adding a circle ( `circle(150,100,70);`). Note that `fill()`and `stroke()` apply to **all** of the following shapes until you  either
   - a) change them (by using `fill()`and `stroke()`again) or
   
   - b) get rid of them by using `noFill()`and `noStroke()` (which again applies for all of the following shapes)
 
 <img src="img/ellipse-instruction.jpg" width="80%" alt="The ellipse() instruction">
 
-## 
-
 ### 3rd Exercise (individual task): Creatures
 
-- **Student's Outcomes**: [link to folder](students-outcomes/task3-creature).
+- **Students' Outcomes**: [link to folder](students-outcomes/task3-creature).
 
 <img src="students-outcomes/task3-creature/task3-creature-overview.jpg" width="70%" height="70%" alt="Student's Outcome of the third task">
 
 ### 3rd Exercise (individual task): Interaction
 
-- **Student's Outcomes**: [link to folder](students-outcomes/task4-interaction).
+- **Students' Outcomes**: [link to folder](students-outcomes/task4-interaction).
 
 <img src="students-outcomes/task4-interaction/task4-interaction-overview.jpg" width="70%" height="70%" alt="Student's Outcome of the third task">
 
-**Comments:**
+**Notes:**
 
-- Interaction describes the relationship between Action and Reaction between two or more systems
+- Interaction describes the relationship between action and reaction between two or more systems
 
-- In information theory, _systems_ describe structures in which information enter through inputs of the system, are transformed internally and exit the system through outputs
+- In information theory, _systems_ describe structures in which information entered through inputs of the system, is transformed internally and leaves the system through outputs
 
-- In order for systems to interact, their respective inputs/outputs have to be compatible  
+- For systems to interact, their respective inputs/outputs must be compatible  
   
   <img src="img/msedge_RCy6Y2rtHR.png" width="60%">
 
-- Also functions can be described as systems which take parameters as inputs. In order to make the color and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
+- Functions can also be described as systems that take parameters as inputs. In this case, to make the colour and size of a rectangle interactive, in this case mouseX and mouseY are used to replace the static values.
   
   <img src="img/msedge_7iQrINcRsm.png" width="80%" height="70%">
 
-## 
-
 ### Conditionals:
 
-- On order to control the flow of code, conditionals are used:
+- Conditionals are used to control the flow of code:
 
 <img src="./img/msedge_shiep6qPgq.png" width="90%">
 
@@ -132,10 +122,10 @@
 
 ## Homework: Install Processing!
 
-Go to [Processing.org](https://processing.org/download) and download the app fitting to your system. 
+Go to [Processing.org](https://processing.org/download) and download the app that matches your system. 
 
 Install it, go to File > Examples > Basics > Structure > Coordinates (double click to open)
 
-Press on the play button to see if the code runs. You succeeded, if there is a blue line crossing an orange rectangle.
+Press on the play button to see if the code runs. You have succeeded, if you see a blue line crossing an orange rectangle.
 
-Mail us, if you have any problem!
+Mail us, if you have any problems!
