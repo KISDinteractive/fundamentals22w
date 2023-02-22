@@ -11,15 +11,15 @@ You are currently at the root of the repository with the "README" file. Every we
 
 ## Sessions
 
-- 🤔 [**Session 1 – Computational Thinking**](sessions/Session1_Computational_Thinking/README.md)
+- 🤔 [**Session 1 – Computational Thinking**](sessions/Session1_Computational_Thinking)
 
-- 📚 [**Session 2 – Context & Syntax**](sessions/Session2_Context_and_Syntax/README.md)
+- 📚 [**Session 2 – Context & Syntax**](sessions/Session2_Context_and_Syntax)
 
-- 💻 [**Session 3 – Advanced Code**](sessions/Session3_Advanced_Code/README.md)
+- 💻 [**Session 3 – Advanced Code**](sessions/Session3_Advanced_Code)
 
-- 🛠️ [**Session 4 – Application & other languages**](sessions/Session4_Application_and_Other_Languages/README.md)
+- 🛠️ [**Session 4 – Application & other languages**](sessions/Session4_Application_and_Other_Languages)
 
-- 🦾 [**Session 5 –  C++,  Application, Roundup**](sessions/Session5_Cpp-Application-Roundup/README.md)
+- 🦾 [**Session 5 –  C++,  Application, Roundup**](sessions/Session5_Cpp-Application-Roundup)
 
 
 
